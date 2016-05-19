@@ -324,7 +324,7 @@ a,img,button,input,textarea {
     background-color: #ffffff;
     position: fixed;
     bottom: 0;
-    z-index: 444;
+    z-index: 800;
     display: none;
 }
 .shdz{

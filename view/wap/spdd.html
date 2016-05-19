@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,height=device-height, user-scalable=no,initial-scale=1, minimum-scale=1, maximum-scale=1">
     <title>商品订单</title>
     <link rel="stylesheet" href="css/spdd.css"/>
+	<link rel="stylesheet" href="css/menu_other.css"/>
     <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
     <script type="text/javascript" src="js/tcewm.js"></script>
    	<script type="text/javascript" src="js/touch.js"></script>
@@ -72,13 +73,15 @@
         <div style="width:11rem;margin:0 auto"><a href="spdd.html"><button type="button">取消订单</button></a></div>
     </div>
    <div class="zshlogo">
+			<!--
             <a href="javascript:;"><img src="img/u63.png" alt="宅生活" style="max-width: 60px"/></a>
             <p style="color: #b2b2b2">宅生活提供技术支持</p>
+			-->
         </div>
     <div class="wx_nav" id="wx_nav">
-        <a href="javascript:;" class="nav_index" id="nav_index">首页</a>
-        <a href="javascript:;" class="nav_shopcart" id="nav_shopcart">购物车</a>
-        <a href="javascript:;" class="nav_me on" id="nav_me on">订单</a>
+        <a href="javascript:;" class="nav_index" id="nav_index" onclick="window.location='index.php'">首页</a>
+        <a href="javascript:;" class="nav_shopcart" id="nav_shopcart" onclick="window.location='cart.php'">购物车</a>
+        <a href="javascript:;" class="nav_me on" id="nav_me on" onclick="window.location='order.php'">订单</a>
     </div>
 </div>
 <div class="dewm">
