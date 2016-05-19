@@ -1,0 +1,16 @@
+/* 公用样式 */
+body{font-family:Arial, Helvetica, sans-serif;font-size:14px;color:#333;margin:0px;padding:0px;background:#28411a url(../images/bg11.jpg) no-repeat left top;}
+img{border:0px}
+html{height:100%;}
+body{height:100%;}
+a{color:#333;text-decoration:none}
+a:hover{color:#333;text-decoration:underline}
+ol,ul,li{padding:0px;margin:0px;list-style-type:none}
+form,ul,li,h1,h2,h3,h4,h5,h6,p,dl,dd,dt,input,select,div{margin:0px;padding:0px}
+#login{width:494px;height:267px;padding-top:30px;background: url(../images/bg.png) no-repeat;margin:200px auto;}
+#login h3{background:url(../images/title.png) no-repeat;height:60px;margin:0 65px 0 65px;}
+#login ul{margin:10px;padding-left:60px;}
+#login ul li{line-height:50px;height:55px;vertical-align:middle;}
+.in{background:#28411a;width:270px;height:35px;line-height:33px;color:#fff;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:18px;border:none;}
+#login ul li span{vertical-align:middle;}
+.tijiao{background:#28411a;width:105px;height:40px;text-align:center;color:#fff;font-weight:bold;font-size:14px;border:none;cursor:pointer;margin-left:42px;border-bottom:solid 1px #15280a;border-right:solid 1px #15280a;border-top:solid 1px #fff;border-left:solid 1px #fff;}

@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<title>登陆</title>
+<link href="../view/admin/styles/css.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../view/admin/js/jquery.js"></script>
+<!--[if lte IE 6]>
+<script type="text/javascript" src="http://img.ccoo.cn/mo/logopng.js"></script>
+<script>
+PNG.fix('*');
+</script>
+<![endif]--> 
+<style type="text/css">
+.duilian {display:none!important;display:none}
+.adbox,#adn_100,#adn_200,#adn_600,.topic_ad {display:none!important;display:none}</style>
+</head>
+<body>
+<script type="text/javascript">
+if(/Android|webOS|iPhone|iPod|BlackBerry|Windows CE|Windows Phone/i.test(navigator.userAgent)){
+	if(window.location.href.indexOf("?pc")<0){window.location.href="wap_login.php"}
+}
+</script>
+<div id="login">
+<h3></h3>
+<form onsubmit="return checkdata();" action="login.php" method="post" name="form1" id="form1">
+<ul>
+	<li><span>账 号</span>  <span><input class="in" id="username" name="username" type="text">
+	</span></li>
+	<li><span>密 码</span>  <span><input class="in" id="passwd" name="passwd" type="password">
+	</span></li>
+	<li><span><input class="tijiao" value="立即登录" type="submit" name ="submit">
+	</span>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="register.php">忘记密码?</a>
+	</li>
+</ul>
+</form>    
+
+</div>
+<script type="text/javascript">
+function trimspace(obj){obj.val($.trim(obj.val()));}
+function checkdata(){
+	trimspace($("#username"))
+	if($("#username").val()=="" )
+	{
+		alert("请输入账号!")
+		$("#username").focus();
+		return false;
+	}
+	if ($("#username").val().length<2){
+		
+		alert("账号输入错误!")
+		$("#username").focus();
+		return false;
+	}
+	if($("#password").val()==""){
+		alert("请输入密码！")
+		$("#password").focus();		
+		return false
+	}
+	if ($("#password").val().length<6){
+		alert("密码密码错误！")
+		$("#password").focus();
+		return false
+	}
+ }
+</script>
+<script type="text/javascript">
+	<?php 
+		if(isset($_SESSION['msg']) && !empty($_SESSION['msg'])) {
+			echo "alert('", $_SESSION['msg'], "')";
+			$_SESSION['msg'] = null;
+
+		}
+	 ?>
+</script>
+
+</body></html>

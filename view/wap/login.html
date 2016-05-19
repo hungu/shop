@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height, user-scalable=no,initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title>登录</title>
+    <link rel="stylesheet" href="../view/wap/css/denglu.css"/>
+    <script type="text/javascript" src="../view/wap/js/jquery-1.7.1.min.js"></script>
+</head>
+<!--用户手机号验证-->
+    <script>
+        /*$(document).ready(function () {
+            $("#btn").on("click",function() {
+                
+                var mob=$.trim($("#phone").val());
+
+                if($.trim($("#phone").val())=="")
+                {
+                    $("#phone").val("");
+                    $("#phone").focus();
+                    alert("手机号码不能为空！");
+                    return false;
+                }
+                if($.trim($("#phone").val())!="")
+                {
+                    var reg = /^1[3|4|5|8][0-9]\d{4,8}$/;
+                    if(!reg.test($.trim($('#phone').val())))
+                    {
+                        $("#phone").val("");
+                        $("#phone").focus();
+                        alert("手机号码格式不对！");
+                        return false;
+                    }
+                }
+            })
+        });*/
+
+       $(function() {
+            $("#btn").on("click",function() {
+
+                if($.trim($("#name").val())=="")
+                {
+                    $("#name").val("");
+                    $("#name").focus();
+                    alert("用户名不能为空！");
+                    return false;
+                }
+                if($.trim($("#name").val())!="")
+                {
+                   if($.trim($("#password").val())=="")
+                    {
+                        $("#password").val("");
+                        $("#password").focus();
+                        alert("密码不能为空！");
+                        return false;
+                    }
+                }
+                if(($.trim($("#name").val())!="") && ($.trim($("#name").val())!="")) {
+                        $('form').submit();
+                }
+            })
+       });
+    </script>
+
+<body>
+<div class="body">
+    <div class="dlbg">
+        <div class="dl">
+            <p>登陆</p>
+            <div class="srk">
+                <form action="login.php" method="post" id='form'>
+                <input type="text" placeholder="用户名" maxlength="11" id="name" name='username'/><br/>
+                <input type="password" placeholder="密码" maxlength="11" id="password" name='passwd'/><br/>
+                <button type="button" id="btn">提交</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    </div>
+<script type="text/javascript">
+<?php 
+    if(isset($_SESSION['msg']) && !empty($_SESSION['msg'])) {
+        echo 'alert("' . $_SESSION['msg'] . '");';
+        $_SESSION['msg'] = NULL;
+    }
+ ?>
+ </script>
+</body>
+</html>

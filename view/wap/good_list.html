@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height, user-scalable=no,initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <title><?php echo $cate_name; ?></title>
+    <link rel="stylesheet" href="../view/wap/css/nydg.css">
+    <link rel="stylesheet" href="../view/wap/css/Up.css">
+    <script type="text/javascript" src="../view/wap/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../view/wap/js/xlmenu.js"></script>
+   	<script type="text/javascript" src="../view/wap/js/touch.js"></script>
+    <script type="text/javascript" src="../view/wap/js/srcolltop.js"></script>
+    <!-- 隐藏菜单 -->
+    <script>
+        $(function(){
+            var titleName=$(".ycmenu a");
+            for(var i =0;i<titleName.length;i++){
+                titleName[i].id=i;
+                titleName[i].onmouseover=function(){
+                    for(var j =0;j<titleName.length;j++){
+                        titleName[j].className="";
+                    }
+                    this.className = "a";
+                }
+            }
+
+        });
+    </script>
+</head>
+<body>
+<div class="body">
+    <div class="tour">
+        <a href="javascript:history.go(-1)" class="tour1"><img src="../view/wap/img/back.png" alt="" style="height: 26px;width: 20px"></a>
+        <p><?php echo $cate_name; ?><i class="xlmenu"></i></p>
+        <a href="cart.php" class="tour2"><img src="../view/wap/img/u65.png" alt="" style="width: 35px;height: 35px"></a>
+    </div>
+    <div class="ycmenu">
+        <ul>
+             <li><a href="good_list.php" class="a">全部商品</a></li>
+                <?php foreach ($cate_list as $cate) { ?>
+            <li><a href="good_list.php?cate_id=<?php echo $cate['cate_id'] ?>"><?php echo $cate['cate_name'] ?></a></li>
+                <?php } ?>
+            <!-- <li><a href="allGoods.html" class="a">全部商品</a></li>
+            <li><a href="nydg.html">奶油蛋糕</a></li>
+            <li><a href="nydg.html">奶油蛋糕</a></li>
+            <li><a href="nydg.html">奶油蛋糕</a></li>
+            <li><a href="nydg.html">奶油蛋糕</a></li>
+            <li><a href="nydg.html">奶油蛋糕</a></li>
+            <li><a href="nydg.html">奶油蛋糕</a></li> -->
+        </ul>
+    </div>
+    <div class="allsp">
+    <?php foreach ($good_list as $good) { ?>
+        <figure>
+            <a href="good_info.php?goods_id=<?php echo $good['goods_id'] ?>"><img src="<?php echo str_replace(ROOT, '../', $conf->file_path . $good['thumb_img']); ?>" alt="<?php echo $good['goods_name'] ?>" class="xqtp"/></a>
+            <p><?php echo $good['goods_name']; ?></p>
+            <div class="info">
+                <em class="sat">￥<?php echo $good['shop_price']?>&nbsp;<small>￥<?php echo $good['market_price']?></small></em>
+                <!-- <a href="#"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 30px;height: 30px" align="right"/></a> -->
+            </div>
+        </figure>
+        <?php }?>
+        <!-- <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 38px;height: 35px" align="right"/></a>
+            </div>
+        </figure>
+        <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 35px;height: 35px" align="right"/></a>
+            </div>
+        </figure>
+        <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 35px;height: 35px" align="right"/></a>
+            </div>
+        </figure>
+        <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 35px;height: 35px" align="right"/></a>
+            </div>
+        </figure>
+        <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 35px;height: 35px" align="right"/></a>
+            </div>
+        </figure>
+        <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 35px;height: 35px" align="right"/></a>
+            </div>
+        </figure>
+        <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 35px;height: 35px" align="right"/></a>
+            </div>
+        </figure>
+        <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 35px;height: 35px" align="right"/></a>
+            </div>
+        </figure>
+        <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 35px;height: 35px" align="right"/></a>
+            </div>
+        </figure>
+        <figure>
+            <a href="spxq.html"><img src="../view/wap/img/u67.png" alt="商品" class="xqtp"/></a>
+            <p>全部商品</p>
+            <div class="info">
+                <em class="sat">￥46</em>
+                <a href="spxq.html"><img src="../view/wap/img/u20.png" alt="购物车" style="width: 35px;height: 35px" align="right"/></a>
+            </div>
+        </figure> -->
+        <div style="clear: both"></div>
+    </div>
+     <div class="zshlogo">
+            <!-- <a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.homelife.mobile.official"><img src="../view/wap/img/u63.png" alt="宅生活" style="max-width: 60px"/></a>
+            <p style="color: #b2b2b2">宅生活提供技术支持</p> -->
+        </div>
+    <div class="wx_nav" id="wx_nav">
+        <a href="javascript:;" class="nav_index" id="nav_index" onclick="window.location='index.php'">首页</a>
+        <a href="javascript:;" class="nav_shopcart" id="nav_shopcart" onclick="window.location='cart.php'">购物车</a>
+        <a href="javascript:;" class="nav_me on" id="nav_me on" onclick="window.location='order.php'">订单</a>
+    </div>>
+</div>
+<div class="actGotop"><a href="javascript:;" title="返回顶部"></a> <img src="../view/wap/img/fanhui.png" alt=""></div>
+<div class="theme-popover-mask"></div>
+</body>
+</html>

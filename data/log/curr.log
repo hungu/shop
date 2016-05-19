@@ -1,0 +1,2672 @@
+16-05-17 22:23:57  SET names utf8
+16-05-17 22:23:57  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 0 AND locked = 0 LIMIT 1
+16-05-17 22:24:29  SET names utf8
+16-05-17 22:26:16  SET names utf8
+16-05-17 22:26:57  SET names utf8
+16-05-17 22:26:57  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 0 AND locked = 0 LIMIT 1
+16-05-17 22:27:16  SET names utf8
+16-05-17 22:27:16  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 0 AND locked = 0 LIMIT 1
+16-05-17 22:27:59  SET names utf8
+16-05-17 22:27:59  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 0 AND locked = 0 LIMIT 1
+16-05-17 22:29:24  SET names utf8
+16-05-17 22:29:24  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 0 AND locked = 0 LIMIT 1
+16-05-17 22:29:38  SET names utf8
+16-05-17 22:29:38  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 0 AND locked = 0 LIMIT 1
+16-05-17 22:30:10  SET names utf8
+16-05-17 22:30:10  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 0 AND locked = 0 LIMIT 1
+16-05-17 22:30:13  SET names utf8
+16-05-17 22:30:13  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 0 AND locked = 0 LIMIT 1
+16-05-17 22:34:20  SET names utf8
+16-05-17 22:34:20  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 1  AND locked = 0 LIMIT 1
+16-05-17 22:34:20  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-17 22:34:20  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:34:20  INSERT INTO cart ( goods_id,user_id,goods_name,shop_price,thumb_img,is_on_sale,goods_num ) VALUES ( '10','3','男士商务正装','299.00','160510/t160510515698987.jpg','1','1' )
+16-05-17 22:34:20  SET names utf8
+16-05-17 22:34:20  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:34:20  SELECT goods_number, goods_id FROM goods WHERE goods_id = 10
+16-05-17 22:36:20  SET names utf8
+16-05-17 22:36:20  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 1  AND locked = 0 LIMIT 1
+16-05-17 22:37:17  SET names utf8
+16-05-17 22:37:17  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND is_adm = 1  AND locked = 0 LIMIT 1
+16-05-17 22:37:44  SET names utf8
+16-05-17 22:38:02  SET names utf8
+16-05-17 22:39:13  SET names utf8
+16-05-17 22:40:56  SET names utf8
+16-05-17 22:40:56  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND locked = 0 LIMIT 1
+16-05-17 22:40:56  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-17 22:40:56  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:41:12  SET names utf8
+16-05-17 22:41:12  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND locked = 0 LIMIT 1
+16-05-17 22:41:12  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-17 22:41:12  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:41:41  SET names utf8
+16-05-17 22:41:41  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-17 22:41:41  SELECT * FROM category WHERE parent_id = 0
+16-05-17 22:41:43  SET names utf8
+16-05-17 22:41:43  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:41:45  SET names utf8
+16-05-17 22:41:45  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:41:45  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:41:45  SELECT cart_id FROM cart WHERE  goods_id = 12 AND user_id = 3 LIMIT 1
+16-05-17 22:41:45  UPDATE cart SET goods_num='6' WHERE cart_id = 18
+16-05-17 22:41:51  SET names utf8
+16-05-17 22:41:51  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:41:51  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-17 22:41:53  SET names utf8
+16-05-17 22:41:53  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:41:53  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:41:53  SET names utf8
+16-05-17 22:41:53  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:41:54  SET names utf8
+16-05-17 22:41:54  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:42:06  SET names utf8
+16-05-17 22:42:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-17 22:42:06  SELECT * FROM category WHERE parent_id = 0
+16-05-17 22:42:07  SET names utf8
+16-05-17 22:42:07  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:42:10  SET names utf8
+16-05-17 22:42:10  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:42:34  SET names utf8
+16-05-17 22:42:34  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND locked = 0 LIMIT 1
+16-05-17 22:42:34  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-17 22:42:34  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:42:34  SELECT cart_id FROM cart WHERE  goods_id = 12 AND user_id = 3 LIMIT 1
+16-05-17 22:42:34  UPDATE cart SET goods_num='7' WHERE cart_id = 18
+16-05-17 22:44:20  SET names utf8
+16-05-17 22:44:20  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND locked = 0 LIMIT 1
+16-05-17 22:44:20  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-17 22:44:20  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:45:29  SET names utf8
+16-05-17 22:45:29  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:45:29  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:45:29  SET names utf8
+16-05-17 22:45:29  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:45:29  SET names utf8
+16-05-17 22:45:29  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:45:29  SET names utf8
+16-05-17 22:45:29  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-17 22:45:29  SELECT * FROM category WHERE parent_id = 0
+16-05-17 22:45:31  SET names utf8
+16-05-17 22:45:31  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:45:33  SET names utf8
+16-05-17 22:45:33  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:46:50  SET names utf8
+16-05-17 22:46:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-17 22:46:50  SELECT * FROM category WHERE parent_id = 0
+16-05-17 22:46:52  SET names utf8
+16-05-17 22:46:52  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:46:56  SET names utf8
+16-05-17 22:46:56  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:46:58  SET names utf8
+16-05-17 22:46:58  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-17 22:47:30  SET names utf8
+16-05-17 22:47:30  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "10cab27894339426743068006fb6c5fb" AND locked = 0 LIMIT 1
+16-05-17 22:47:30  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-17 22:47:30  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:47:30  SELECT cart_id FROM cart WHERE  goods_id = 12 AND user_id = 3 LIMIT 1
+16-05-17 22:47:30  UPDATE cart SET goods_num='8' WHERE cart_id = 18
+16-05-17 22:47:30  SET names utf8
+16-05-17 22:47:30  SELECT * FROM cart WHERE user_id = 3
+16-05-17 22:47:30  SELECT goods_number, goods_id FROM goods WHERE goods_id = 12
+16-05-18 08:09:27  SET names utf8
+16-05-18 08:09:27  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 08:09:27  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 08:09:27  SET names utf8
+16-05-18 08:09:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 08:09:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:08:06  SET names utf8
+16-05-18 09:08:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:08:06  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:17:53  SET names utf8
+16-05-18 09:17:53  SELECT * FROM goods WHERE goods_id = 9 LIMIT 1
+16-05-18 09:17:58  SET names utf8
+16-05-18 09:17:58  SELECT * FROM goods WHERE goods_id = 9 LIMIT 1
+16-05-18 09:21:03  SET names utf8
+16-05-18 09:21:03  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:21:03  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:21:07  SET names utf8
+16-05-18 09:21:07  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:21:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:21:34  SET names utf8
+16-05-18 09:21:34  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:21:34  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:22:14  SET names utf8
+16-05-18 09:22:14  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:22:14  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:23:08  SET names utf8
+16-05-18 09:23:08  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 09:23:08  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 09:23:08  SET names utf8
+16-05-18 09:23:08  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:23:08  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:23:32  SET names utf8
+16-05-18 09:23:32  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:23:32  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:23:32  SET names utf8
+16-05-18 09:23:32  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:23:32  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:23:37  SET names utf8
+16-05-18 09:23:37  SELECT * FROM goods WHERE goods_id = 9 LIMIT 1
+16-05-18 09:23:39  SET names utf8
+16-05-18 09:23:39  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:23:39  SELECT * FROM goods WHERE goods_id = 9 LIMIT 1
+16-05-18 09:23:39  INSERT INTO cart ( goods_id,user_id,goods_name,shop_price,thumb_img,is_on_sale,goods_num ) VALUES ( '9','5','休闲男士西服','199.00','160510/t160510515310251.jpg','1','1' )
+16-05-18 09:23:45  SET names utf8
+16-05-18 09:23:45  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:23:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:23:45  SET names utf8
+16-05-18 09:23:45  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:23:45  SELECT goods_number, goods_id FROM goods WHERE goods_id = 13 OR goods_id = 9
+16-05-18 09:23:48  SET names utf8
+16-05-18 09:23:48  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:23:48  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:24:44  SET names utf8
+16-05-18 09:24:44  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:24:44  SELECT * FROM goods WHERE goods_id = 9 LIMIT 1
+16-05-18 09:24:44  SET names utf8
+16-05-18 09:24:44  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:25:01  SET names utf8
+16-05-18 09:25:01  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:25:01  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:26:24  SET names utf8
+16-05-18 09:26:24  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:26:24  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:27:32  SET names utf8
+16-05-18 09:27:32  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:27:32  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:27:51  SET names utf8
+16-05-18 09:27:51  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 09:27:54  SET names utf8
+16-05-18 09:27:54  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:27:54  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:27:58  SET names utf8
+16-05-18 09:27:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:27:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:28:00  SET names utf8
+16-05-18 09:28:00  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 09:28:22  SET names utf8
+16-05-18 09:28:22  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 09:28:42  SET names utf8
+16-05-18 09:28:42  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:28:42  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:28:53  SET names utf8
+16-05-18 09:28:53  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 09:28:55  SET names utf8
+16-05-18 09:28:55  SELECT user_id FROM user WHERE username = "阳光普照" AND passwd = "17c0da55b4f8d3b7986f02c2fed6f2cc" AND locked = 0 LIMIT 1
+16-05-18 09:29:10  SET names utf8
+16-05-18 09:29:10  SELECT user_id FROM user WHERE username = "阳光普照" AND passwd = "9904a78e3d78f40cce5a0f0755262638" AND locked = 0 LIMIT 1
+16-05-18 09:29:10  SELECT openid FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 09:29:10  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:29:10  INSERT INTO cart ( goods_id,user_id,goods_name,shop_price,thumb_img,is_on_sale,goods_num ) VALUES ( '8','5','经典西服套装','198.00','160510/t160510495657998.jpg','1','1' )
+16-05-18 09:29:10  SET names utf8
+16-05-18 09:29:10  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:29:10  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 09:29:11  SET names utf8
+16-05-18 09:29:11  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:29:11  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:31:19  SET names utf8
+16-05-18 09:31:19  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:31:19  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 09:31:26  SET names utf8
+16-05-18 09:31:26  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 09:31:26  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 09:31:26  SET names utf8
+16-05-18 09:31:26  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:31:26  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:31:35  SET names utf8
+16-05-18 09:31:35  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:31:35  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:31:37  SET names utf8
+16-05-18 09:31:37  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 09:31:48  SET names utf8
+16-05-18 09:31:48  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:31:50  SET names utf8
+16-05-18 09:31:50  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 09:32:06  SET names utf8
+16-05-18 09:32:06  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:32:09  SET names utf8
+16-05-18 09:32:09  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 09:32:09  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 09:32:09  SET names utf8
+16-05-18 09:32:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:32:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:32:23  SET names utf8
+16-05-18 09:32:23  SELECT * FROM cart WHERE user_id = 6
+16-05-18 09:33:16  SET names utf8
+16-05-18 09:33:16  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:33:16  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:33:24  SET names utf8
+16-05-18 09:33:24  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 09:33:26  SET names utf8
+16-05-18 09:33:26  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:33:29  SET names utf8
+16-05-18 09:33:29  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:33:29  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 09:33:58  SET names utf8
+16-05-18 09:33:58  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 09:33:58  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 09:33:59  SET names utf8
+16-05-18 09:33:59  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:33:59  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:34:06  SET names utf8
+16-05-18 09:34:06  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 09:34:08  SET names utf8
+16-05-18 09:34:08  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:34:11  SET names utf8
+16-05-18 09:34:11  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:34:11  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 09:35:45  SET names utf8
+16-05-18 09:35:45  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:35:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:35:48  SET names utf8
+16-05-18 09:35:48  SELECT * FROM cart WHERE user_id = 5
+16-05-18 09:39:51  SET names utf8
+16-05-18 09:39:51  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:39:51  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:42:44  SET names utf8
+16-05-18 09:42:44  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 09:42:44  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 09:42:44  SET names utf8
+16-05-18 09:42:44  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:42:44  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:42:55  SET names utf8
+16-05-18 09:42:55  SELECT * FROM cart WHERE user_id = 6
+16-05-18 09:43:05  SET names utf8
+16-05-18 09:43:05  SELECT * FROM cart WHERE user_id = 6
+16-05-18 09:43:16  SET names utf8
+16-05-18 09:43:16  SELECT * FROM cart WHERE user_id = 6
+16-05-18 09:43:44  SET names utf8
+16-05-18 09:43:44  SELECT user_id FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 09:43:44  SELECT locked FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 09:43:44  UPDATE user SET passwd='77e7bb1fbfd70003b2c6c8e81afc3f25' WHERE user_id = 3
+16-05-18 09:43:44  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 09:43:44  SELECT locked FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 09:43:44  UPDATE user SET passwd='1394b31521f307f55b01554f8f65da1b' WHERE user_id = 6
+16-05-18 09:43:48  SET names utf8
+16-05-18 09:43:48  SELECT user_id FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 09:43:48  SELECT locked FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 09:43:48  UPDATE user SET passwd='8dfc9bed0181abe66c654e96d2b9096d' WHERE user_id = 3
+16-05-18 09:43:48  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 09:43:48  SELECT locked FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 09:43:48  UPDATE user SET passwd='b62139824cdce74ae0fe7dc34608c888' WHERE user_id = 6
+16-05-18 09:45:33  SET names utf8
+16-05-18 09:45:33  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
+16-05-18 09:46:35  SET names utf8
+16-05-18 09:46:35  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
+16-05-18 09:46:35  SET names utf8
+16-05-18 09:46:35  SELECT * FROM goods WHERE goods_id = 63 LIMIT 1
+16-05-18 09:48:35  SET names utf8
+16-05-18 09:48:35  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:48:35  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:50:50  SET names utf8
+16-05-18 09:50:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:50:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:53:04  SET names utf8
+16-05-18 09:53:04  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 09:53:04  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 09:53:04  SET names utf8
+16-05-18 09:53:04  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:53:04  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:53:08  SET names utf8
+16-05-18 09:53:08  SELECT * FROM cart WHERE user_id = 6
+16-05-18 09:54:27  SET names utf8
+16-05-18 09:54:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:54:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:56:12  SET names utf8
+16-05-18 09:56:12  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:56:12  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:58:17  SET names utf8
+16-05-18 09:58:17  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:58:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 09:59:29  SET names utf8
+16-05-18 09:59:29  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 09:59:29  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:01:10  SET names utf8
+16-05-18 10:01:10  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:01:10  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:01:15  SET names utf8
+16-05-18 10:01:15  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:01:15  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:01:21  SET names utf8
+16-05-18 10:01:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:01:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:03:17  SET names utf8
+16-05-18 10:03:17  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:03:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:03:20  SET names utf8
+16-05-18 10:03:20  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:03:20  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:11:42  SET names utf8
+16-05-18 10:11:42  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:11:42  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:12:02  SET names utf8
+16-05-18 10:12:02  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:12:02  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:13:26  SET names utf8
+16-05-18 10:13:26  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:13:26  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:14:31  SET names utf8
+16-05-18 10:14:31  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:14:31  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:14:42  SET names utf8
+16-05-18 10:14:42  SELECT * FROM cart WHERE user_id = 6
+16-05-18 10:14:44  SET names utf8
+16-05-18 10:14:44  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 10:14:44  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 10:14:44  SET names utf8
+16-05-18 10:14:44  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:14:44  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:14:51  SET names utf8
+16-05-18 10:14:51  SELECT * FROM cart WHERE user_id = 6
+16-05-18 10:14:54  SET names utf8
+16-05-18 10:14:54  SELECT * FROM cart WHERE user_id = 6
+16-05-18 10:14:56  SET names utf8
+16-05-18 10:14:56  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:14:56  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:15:06  SET names utf8
+16-05-18 10:15:06  SELECT * FROM cart WHERE user_id = 6
+16-05-18 10:17:31  SET names utf8
+16-05-18 10:17:31  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:17:31  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:18:08  SET names utf8
+16-05-18 10:18:08  SELECT * FROM cart WHERE user_id = 6
+16-05-18 10:18:13  SET names utf8
+16-05-18 10:18:13  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:18:13  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:18:40  SET names utf8
+16-05-18 10:18:40  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:18:40  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:18:45  SET names utf8
+16-05-18 10:18:45  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 10:18:51  SET names utf8
+16-05-18 10:18:51  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 10:19:07  SET names utf8
+16-05-18 10:19:07  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:19:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:24:21  SET names utf8
+16-05-18 10:24:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:24:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:24:22  SET names utf8
+16-05-18 10:24:22  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 10:24:24  SET names utf8
+16-05-18 10:24:24  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 10:24:30  SET names utf8
+16-05-18 10:24:30  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:24:30  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:24:36  SET names utf8
+16-05-18 10:24:36  SELECT * FROM category 
+16-05-18 10:24:36  SELECT * FROM category 
+16-05-18 10:24:36  SELECT * FROM category 
+16-05-18 10:24:36  SELECT * FROM category WHERE cate_id = 7 LIMIT 1
+16-05-18 10:24:36  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:24:36  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 10:24:46  SET names utf8
+16-05-18 10:24:46  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:24:46  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:24:53  SET names utf8
+16-05-18 10:24:53  SELECT * FROM category 
+16-05-18 10:24:53  SELECT * FROM category 
+16-05-18 10:24:53  SELECT * FROM category 
+16-05-18 10:24:53  SELECT * FROM category WHERE cate_id = 7 LIMIT 1
+16-05-18 10:24:53  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:24:53  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 10:25:07  SET names utf8
+16-05-18 10:25:07  SELECT * FROM category 
+16-05-18 10:25:07  SELECT * FROM category 
+16-05-18 10:25:07  SELECT * FROM category 
+16-05-18 10:25:07  SELECT * FROM category WHERE cate_id = 7 LIMIT 1
+16-05-18 10:25:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:25:07  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 10:25:10  SET names utf8
+16-05-18 10:25:10  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:25:10  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:25:48  SET names utf8
+16-05-18 10:25:48  SELECT * FROM cart WHERE user_id = 6
+16-05-18 10:25:52  SET names utf8
+16-05-18 10:25:52  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:25:52  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:25:56  SET names utf8
+16-05-18 10:25:56  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 10:25:56  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 10:25:56  SET names utf8
+16-05-18 10:25:56  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:25:56  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:48:52  SET names utf8
+16-05-18 10:48:52  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:48:52  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:48:59  SET names utf8
+16-05-18 10:48:59  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:48:59  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:49:04  SET names utf8
+16-05-18 10:49:04  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:49:07  SET names utf8
+16-05-18 10:49:07  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:49:09  SET names utf8
+16-05-18 10:49:09  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:49:11  SET names utf8
+16-05-18 10:49:11  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:49:12  SET names utf8
+16-05-18 10:49:12  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:49:35  SET names utf8
+16-05-18 10:49:35  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 10:49:40  SET names utf8
+16-05-18 10:49:40  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:49:46  SET names utf8
+16-05-18 10:49:46  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:49:46  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 10:49:59  SET names utf8
+16-05-18 10:49:59  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:50:03  SET names utf8
+16-05-18 10:50:03  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:50:04  SET names utf8
+16-05-18 10:50:04  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:50:04  SET names utf8
+16-05-18 10:50:04  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:50:06  SET names utf8
+16-05-18 10:50:06  SELECT * FROM cart WHERE user_id = 5
+16-05-18 10:50:06  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 10:52:36  SET names utf8
+16-05-18 10:52:36  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:52:36  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:53:21  SET names utf8
+16-05-18 10:53:21  SELECT user_id FROM user WHERE username = "ambition" AND passwd = "b62139824cdce74ae0fe7dc34608c888" AND locked = 0 LIMIT 1
+16-05-18 10:53:28  SET names utf8
+16-05-18 10:53:28  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:53:28  SELECT * FROM category WHERE parent_id = 0
+16-05-18 10:54:09  SET names utf8
+16-05-18 10:54:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 10:54:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:02:37  SET names utf8
+16-05-18 11:02:37  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:02:37  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:03:26  SET names utf8
+16-05-18 11:03:26  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:03:26  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:03:47  SET names utf8
+16-05-18 11:03:47  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:03:47  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:04:01  SET names utf8
+16-05-18 11:04:01  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:04:01  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:05:56  SET names utf8
+16-05-18 11:05:56  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:05:56  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:06:02  SET names utf8
+16-05-18 11:06:02  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:06:02  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:08:21  SET names utf8
+16-05-18 11:08:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:08:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:09:20  SET names utf8
+16-05-18 11:09:20  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 11:09:20  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 11:09:20  SET names utf8
+16-05-18 11:09:20  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:09:20  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:09:28  SET names utf8
+16-05-18 11:09:28  SELECT * FROM cart WHERE user_id = 5
+16-05-18 11:09:31  SET names utf8
+16-05-18 11:09:31  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:09:31  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:10:24  SET names utf8
+16-05-18 11:10:24  SELECT * FROM cart WHERE user_id = 5
+16-05-18 11:10:26  SET names utf8
+16-05-18 11:10:26  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:10:26  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:17:09  SET names utf8
+16-05-18 11:17:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:17:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:17:15  SET names utf8
+16-05-18 11:17:15  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:17:15  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:18:14  SET names utf8
+16-05-18 11:18:14  SELECT * FROM cart WHERE user_id = 5
+16-05-18 11:18:46  SET names utf8
+16-05-18 11:18:46  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:18:46  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:18:55  SET names utf8
+16-05-18 11:18:55  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:18:55  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:20:45  SET names utf8
+16-05-18 11:20:45  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:20:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:23:09  SET names utf8
+16-05-18 11:23:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:23:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:23:27  SET names utf8
+16-05-18 11:23:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:23:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:28:29  SET names utf8
+16-05-18 11:28:29  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:28:29  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:28:43  SET names utf8
+16-05-18 11:28:43  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:28:43  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:29:50  SET names utf8
+16-05-18 11:29:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:29:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:29:53  SET names utf8
+16-05-18 11:29:53  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:29:53  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:31:12  SET names utf8
+16-05-18 11:31:12  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:31:12  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:31:18  SET names utf8
+16-05-18 11:31:18  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:31:18  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:31:43  SET names utf8
+16-05-18 11:31:43  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:31:43  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:50:27  SET names utf8
+16-05-18 11:50:27  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 11:50:27  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 11:50:27  SET names utf8
+16-05-18 11:50:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:50:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:50:35  SET names utf8
+16-05-18 11:50:35  SELECT * FROM cart WHERE user_id = 6
+16-05-18 11:50:38  SET names utf8
+16-05-18 11:50:38  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:50:38  SELECT * FROM category WHERE parent_id = 0
+16-05-18 11:50:46  SET names utf8
+16-05-18 11:50:46  SELECT * FROM cart WHERE user_id = 6
+16-05-18 11:50:53  SET names utf8
+16-05-18 11:50:53  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 11:50:53  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:10:59  SET names utf8
+16-05-18 12:10:59  SELECT user_id FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 12:10:59  SELECT * FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 12:10:59  SET names utf8
+16-05-18 12:10:59  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:10:59  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:10:59  SET names utf8
+16-05-18 12:10:59  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
+16-05-18 12:10:59  SET names utf8
+16-05-18 12:10:59  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
+16-05-18 12:11:04  SET names utf8
+16-05-18 12:11:04  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:11:06  SET names utf8
+16-05-18 12:11:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:11:06  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:11:07  SET names utf8
+16-05-18 12:11:07  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:11:09  SET names utf8
+16-05-18 12:11:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:11:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:11:10  SET names utf8
+16-05-18 12:11:10  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:11:10  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:11:12  SET names utf8
+16-05-18 12:11:12  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:11:14  SET names utf8
+16-05-18 12:11:14  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:11:16  SET names utf8
+16-05-18 12:11:16  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:11:17  SET names utf8
+16-05-18 12:11:17  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:11:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:11:21  SET names utf8
+16-05-18 12:11:21  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:11:22  SET names utf8
+16-05-18 12:11:22  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:11:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:11:22  SET names utf8
+16-05-18 12:11:22  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:11:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:11:23  SET names utf8
+16-05-18 12:11:23  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:11:23  SET names utf8
+16-05-18 12:11:23  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:11:23  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:11:57  SET names utf8
+16-05-18 12:11:57  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 12:12:03  SET names utf8
+16-05-18 12:12:03  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:12:03  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:12:05  SET names utf8
+16-05-18 12:12:05  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:12:09  SET names utf8
+16-05-18 12:12:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:12:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:12:10  SET names utf8
+16-05-18 12:12:10  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:12:11  SET names utf8
+16-05-18 12:12:11  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:12:11  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:12:12  SET names utf8
+16-05-18 12:12:12  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:12:13  SET names utf8
+16-05-18 12:12:13  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:12:13  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:12:13  SET names utf8
+16-05-18 12:12:13  SELECT * FROM cart WHERE user_id = 3
+16-05-18 12:49:05  SET names utf8
+16-05-18 12:49:05  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 12:49:05  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 12:49:05  SET names utf8
+16-05-18 12:49:05  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:49:05  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:49:13  SET names utf8
+16-05-18 12:49:13  SELECT * FROM cart WHERE user_id = 5
+16-05-18 12:49:15  SET names utf8
+16-05-18 12:49:15  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:49:15  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:49:17  SET names utf8
+16-05-18 12:49:17  SELECT * FROM cart WHERE user_id = 5
+16-05-18 12:49:19  SET names utf8
+16-05-18 12:49:19  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:49:19  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:49:20  SET names utf8
+16-05-18 12:49:20  SELECT * FROM cart WHERE user_id = 5
+16-05-18 12:49:22  SET names utf8
+16-05-18 12:49:22  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:49:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 12:49:24  SET names utf8
+16-05-18 12:49:24  SELECT * FROM cart WHERE user_id = 5
+16-05-18 12:49:30  SET names utf8
+16-05-18 12:49:30  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 12:49:30  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:00:09  SET names utf8
+16-05-18 13:00:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:00:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:07:03  SET names utf8
+16-05-18 13:07:03  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:07:03  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:07:46  SET names utf8
+16-05-18 13:07:46  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:07:46  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:07:57  SET names utf8
+16-05-18 13:07:57  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:07:57  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:08:50  SET names utf8
+16-05-18 13:08:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:08:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:09:24  SET names utf8
+16-05-18 13:09:24  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:09:24  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:09:58  SET names utf8
+16-05-18 13:09:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:09:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:10:08  SET names utf8
+16-05-18 13:10:08  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:10:08  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:10:14  SET names utf8
+16-05-18 13:10:14  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:10:14  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:10:27  SET names utf8
+16-05-18 13:10:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:10:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:11:54  SET names utf8
+16-05-18 13:11:54  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:11:54  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:12:08  SET names utf8
+16-05-18 13:12:08  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:12:08  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:12:58  SET names utf8
+16-05-18 13:12:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:12:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:13:01  SET names utf8
+16-05-18 13:13:01  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:13:01  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:14:18  SET names utf8
+16-05-18 13:14:18  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:14:18  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:18:25  SET names utf8
+16-05-18 13:18:25  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:18:25  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:18:32  SET names utf8
+16-05-18 13:18:32  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:18:32  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:18:39  SET names utf8
+16-05-18 13:18:39  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:18:39  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:18:49  SET names utf8
+16-05-18 13:18:49  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:18:49  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:19:30  SET names utf8
+16-05-18 13:19:30  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:19:30  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:22:08  SET names utf8
+16-05-18 13:22:08  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:22:08  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:22:17  SET names utf8
+16-05-18 13:22:17  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:22:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:22:58  SET names utf8
+16-05-18 13:22:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:22:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:23:03  SET names utf8
+16-05-18 13:23:03  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:23:03  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:23:15  SET names utf8
+16-05-18 13:23:15  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:23:15  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:25:49  SET names utf8
+16-05-18 13:25:49  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:25:49  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:25:53  SET names utf8
+16-05-18 13:25:53  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:25:53  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:27:12  SET names utf8
+16-05-18 13:27:12  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:27:12  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:27:28  SET names utf8
+16-05-18 13:27:28  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:27:28  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 13:27:29  SET names utf8
+16-05-18 13:27:29  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:27:29  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:27:34  SET names utf8
+16-05-18 13:27:34  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:27:34  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 13:27:35  SET names utf8
+16-05-18 13:27:35  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:27:35  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:27:37  SET names utf8
+16-05-18 13:27:37  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:27:45  SET names utf8
+16-05-18 13:27:45  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:27:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:27:50  SET names utf8
+16-05-18 13:27:50  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:27:50  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 13:27:50  SET names utf8
+16-05-18 13:27:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:27:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:27:54  SET names utf8
+16-05-18 13:27:54  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:27:57  SET names utf8
+16-05-18 13:27:57  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:27:57  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:28:32  SET names utf8
+16-05-18 13:28:32  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 13:28:32  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 13:28:32  SET names utf8
+16-05-18 13:28:32  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:28:32  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:28:40  SET names utf8
+16-05-18 13:28:40  SELECT * FROM cart WHERE user_id = 7
+16-05-18 13:28:45  SET names utf8
+16-05-18 13:28:45  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:28:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:28:47  SET names utf8
+16-05-18 13:28:47  SELECT * FROM cart WHERE user_id = 7
+16-05-18 13:28:53  SET names utf8
+16-05-18 13:28:53  SELECT * FROM cart WHERE user_id = 7
+16-05-18 13:28:58  SET names utf8
+16-05-18 13:28:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:28:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:29:00  SET names utf8
+16-05-18 13:29:00  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 13:29:02  SET names utf8
+16-05-18 13:29:02  SELECT * FROM cart WHERE user_id = 7
+16-05-18 13:29:02  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 13:29:02  INSERT INTO cart ( goods_id,user_id,goods_name,shop_price,thumb_img,is_on_sale,goods_num ) VALUES ( '13','7','欧美修身长袖小西服','298.00','160510/t160510575654564.jpg','1','1' )
+16-05-18 13:29:10  SET names utf8
+16-05-18 13:29:10  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 13:29:36  SET names utf8
+16-05-18 13:29:36  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:29:36  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:34:31  SET names utf8
+16-05-18 13:34:31  SELECT user_id FROM user WHERE username = "Ambition、" AND passwd = "b62139824cdce74ae0fe7dc34608c888" AND locked = 0 LIMIT 1
+16-05-18 13:34:31  SELECT openid FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 13:34:31  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:34:31  INSERT INTO cart ( goods_id,user_id,goods_name,shop_price,thumb_img,is_on_sale,goods_num ) VALUES ( '8','6','经典西服套装','198.00','160510/t160510495657998.jpg','1','1' )
+16-05-18 13:34:31  INSERT INTO cart ( goods_id,user_id,goods_name,shop_price,thumb_img,is_on_sale,goods_num ) VALUES ( '13','6','欧美修身长袖小西服','298.00','160510/t160510575654564.jpg','1','1' )
+16-05-18 13:34:41  SET names utf8
+16-05-18 13:34:41  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:34:47  SET names utf8
+16-05-18 13:34:47  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:34:47  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 13:34:47  SET names utf8
+16-05-18 13:34:47  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:34:47  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:34:51  SET names utf8
+16-05-18 13:34:51  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:35:05  SET names utf8
+16-05-18 13:35:05  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 13:35:09  SET names utf8
+16-05-18 13:35:09  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:35:54  SET names utf8
+16-05-18 13:35:54  SELECT user_id FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 13:35:54  SELECT locked FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 13:35:54  UPDATE user SET passwd='85cd7fbbcd942cef0cbab946d9141bc2' WHERE user_id = 3
+16-05-18 13:35:54  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:35:54  SELECT locked FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:35:54  UPDATE user SET passwd='373ed742ca80beb605e6b02c99e8e198' WHERE user_id = 6
+16-05-18 13:35:54  SELECT username FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:35:56  SET names utf8
+16-05-18 13:35:56  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:35:56  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 13:35:57  SET names utf8
+16-05-18 13:35:57  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:35:57  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:36:04  SET names utf8
+16-05-18 13:36:04  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:36:10  SET names utf8
+16-05-18 13:36:10  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:36:10  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:42:42  SET names utf8
+16-05-18 13:42:42  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:44:07  SET names utf8
+16-05-18 13:44:07  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:44:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:44:36  SET names utf8
+16-05-18 13:44:36  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:44:36  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 13:44:36  SET names utf8
+16-05-18 13:44:36  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:44:36  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:45:18  SET names utf8
+16-05-18 13:45:18  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:45:18  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 13:45:18  SET names utf8
+16-05-18 13:45:18  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:45:18  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:45:21  SET names utf8
+16-05-18 13:45:21  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:45:31  SET names utf8
+16-05-18 13:45:31  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:45:31  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:53:19  SET names utf8
+16-05-18 13:53:19  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 13:53:19  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 13:53:19  SET names utf8
+16-05-18 13:53:19  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:53:19  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:53:22  SET names utf8
+16-05-18 13:53:22  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:53:26  SET names utf8
+16-05-18 13:53:26  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:53:35  SET names utf8
+16-05-18 13:53:35  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:53:40  SET names utf8
+16-05-18 13:53:40  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:53:46  SET names utf8
+16-05-18 13:53:46  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:53:54  SET names utf8
+16-05-18 13:53:54  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:53:54  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:53:59  SET names utf8
+16-05-18 13:53:59  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 13:54:16  SET names utf8
+16-05-18 13:54:16  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 13:54:30  SET names utf8
+16-05-18 13:54:30  SELECT * FROM cart WHERE user_id = 6
+16-05-18 13:54:30  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 13:54:30  INSERT INTO cart ( goods_id,user_id,goods_name,shop_price,thumb_img,is_on_sale,goods_num ) VALUES ( '12','6','修身女士小西','98.00','160510/t160510525210293.jpg','1','1' )
+16-05-18 13:54:38  SET names utf8
+16-05-18 13:54:38  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 13:54:38  SELECT * FROM category WHERE parent_id = 0
+16-05-18 13:54:40  SET names utf8
+16-05-18 13:54:40  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 13:54:59  SET names utf8
+16-05-18 13:54:59  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:02:38  SET names utf8
+16-05-18 14:02:38  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:02:38  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:02:41  SET names utf8
+16-05-18 14:02:41  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:02:55  SET names utf8
+16-05-18 14:02:55  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:03:55  SET names utf8
+16-05-18 14:03:55  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 14:03:55  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:03:55  SET names utf8
+16-05-18 14:03:55  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:03:55  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:03:59  SET names utf8
+16-05-18 14:03:59  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:04:01  SET names utf8
+16-05-18 14:04:01  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:04:01  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:04:03  SET names utf8
+16-05-18 14:04:03  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:04:05  SET names utf8
+16-05-18 14:04:05  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:04:05  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:04:06  SET names utf8
+16-05-18 14:04:06  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:04:10  SET names utf8
+16-05-18 14:04:10  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:04:10  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:04:12  SET names utf8
+16-05-18 14:04:12  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:04:15  SET names utf8
+16-05-18 14:04:15  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:04:15  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:04:16  SET names utf8
+16-05-18 14:04:16  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:04:22  SET names utf8
+16-05-18 14:04:22  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:04:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:05:09  SET names utf8
+16-05-18 14:05:09  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 14:05:09  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:05:09  SET names utf8
+16-05-18 14:05:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:05:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:05:15  SET names utf8
+16-05-18 14:05:15  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:05:18  SET names utf8
+16-05-18 14:05:18  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:05:18  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 14:05:25  SET names utf8
+16-05-18 14:05:25  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:05:27  SET names utf8
+16-05-18 14:05:27  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:05:27  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 14:05:29  SET names utf8
+16-05-18 14:05:29  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:05:32  SET names utf8
+16-05-18 14:05:32  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:05:32  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 14:05:34  SET names utf8
+16-05-18 14:05:34  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:05:38  SET names utf8
+16-05-18 14:05:38  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:05:38  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:06:06  SET names utf8
+16-05-18 14:06:06  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 14:06:06  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:06:06  SET names utf8
+16-05-18 14:06:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:06:06  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:06:11  SET names utf8
+16-05-18 14:06:11  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:06:17  SET names utf8
+16-05-18 14:06:17  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:06:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:06:22  SET names utf8
+16-05-18 14:06:22  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:06:25  SET names utf8
+16-05-18 14:06:25  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:06:25  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 14:06:33  SET names utf8
+16-05-18 14:06:33  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:06:36  SET names utf8
+16-05-18 14:06:36  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:06:36  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:06:43  SET names utf8
+16-05-18 14:06:43  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:06:43  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:06:50  SET names utf8
+16-05-18 14:06:50  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:07:23  SET names utf8
+16-05-18 14:07:23  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:07:33  SET names utf8
+16-05-18 14:07:33  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:07:34  SET names utf8
+16-05-18 14:07:34  SELECT user_id FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 14:07:34  SELECT locked FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 14:07:34  UPDATE user SET passwd='c0a76162b3e89d40cedeef897d8c13fc' WHERE user_id = 3
+16-05-18 14:07:34  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 14:07:34  SELECT locked FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 14:07:34  UPDATE user SET passwd='708b73ab1d7b63b4b224b3f58b991224' WHERE user_id = 6
+16-05-18 14:07:34  SELECT username FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 14:07:35  SET names utf8
+16-05-18 14:07:35  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:07:35  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:07:37  SET names utf8
+16-05-18 14:07:37  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 14:07:37  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 14:07:37  SET names utf8
+16-05-18 14:07:37  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:07:37  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:07:38  SET names utf8
+16-05-18 14:07:38  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 14:07:42  SET names utf8
+16-05-18 14:07:42  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:07:45  SET names utf8
+16-05-18 14:07:45  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:07:51  SET names utf8
+16-05-18 14:07:51  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:07:54  SET names utf8
+16-05-18 14:07:54  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:07:54  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:08:00  SET names utf8
+16-05-18 14:08:00  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:08:00  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:08:02  SET names utf8
+16-05-18 14:08:02  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:08:02  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:08:05  SET names utf8
+16-05-18 14:08:05  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:08:05  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:08:14  SET names utf8
+16-05-18 14:08:14  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:08:17  SET names utf8
+16-05-18 14:08:17  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:08:21  SET names utf8
+16-05-18 14:08:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:08:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:08:23  SET names utf8
+16-05-18 14:08:23  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:08:23  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:08:26  SET names utf8
+16-05-18 14:08:26  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:08:26  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:08:27  SET names utf8
+16-05-18 14:08:27  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:08:32  SET names utf8
+16-05-18 14:08:32  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:08:38  SET names utf8
+16-05-18 14:08:38  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:08:38  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:08:39  SET names utf8
+16-05-18 14:08:39  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:08:50  SET names utf8
+16-05-18 14:08:50  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:08:59  SET names utf8
+16-05-18 14:08:59  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:09:09  SET names utf8
+16-05-18 14:09:09  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:09:16  SET names utf8
+16-05-18 14:09:16  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:09:16  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:09:17  SET names utf8
+16-05-18 14:09:17  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:09:21  SET names utf8
+16-05-18 14:09:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:09:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:09:26  SET names utf8
+16-05-18 14:09:26  SELECT * FROM category 
+16-05-18 14:09:26  SELECT * FROM category 
+16-05-18 14:09:26  SELECT * FROM category 
+16-05-18 14:09:26  SELECT * FROM category 
+16-05-18 14:09:26  SELECT * FROM category 
+16-05-18 14:09:26  SELECT * FROM category 
+16-05-18 14:09:26  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:09:26  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 14:09:48  SET names utf8
+16-05-18 14:09:48  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:09:48  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:09:51  SET names utf8
+16-05-18 14:09:51  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:09:56  SET names utf8
+16-05-18 14:09:56  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:10:04  SET names utf8
+16-05-18 14:10:04  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 14:11:45  SET names utf8
+16-05-18 14:11:45  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:11:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:11:47  SET names utf8
+16-05-18 14:11:47  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 14:11:48  SET names utf8
+16-05-18 14:11:48  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 14:11:51  SET names utf8
+16-05-18 14:11:51  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:11:53  SET names utf8
+16-05-18 14:11:53  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:11:53  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:11:54  SET names utf8
+16-05-18 14:11:54  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:12:04  SET names utf8
+16-05-18 14:12:04  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 14:12:04  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 14:12:04  SET names utf8
+16-05-18 14:12:04  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:12:04  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:12:13  SET names utf8
+16-05-18 14:12:13  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:12:16  SET names utf8
+16-05-18 14:12:16  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:12:21  SET names utf8
+16-05-18 14:12:21  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:12:21  SELECT goods_number, goods_id FROM goods WHERE goods_id = 13
+16-05-18 14:12:28  SET names utf8
+16-05-18 14:12:28  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:12:28  SELECT goods_number, goods_id FROM goods WHERE goods_id = 13
+16-05-18 14:13:01  SET names utf8
+16-05-18 14:13:01  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:13:02  SET names utf8
+16-05-18 14:13:02  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:13:03  SET names utf8
+16-05-18 14:13:03  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:13:03  SET names utf8
+16-05-18 14:13:03  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:13:03  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:13:07  SET names utf8
+16-05-18 14:13:07  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:13:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:13:09  SET names utf8
+16-05-18 14:13:09  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:13:13  SET names utf8
+16-05-18 14:13:13  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:13:13  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:13:14  SET names utf8
+16-05-18 14:13:14  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:13:16  SET names utf8
+16-05-18 14:13:16  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:13:16  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:13:17  SET names utf8
+16-05-18 14:13:17  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:13:50  SET names utf8
+16-05-18 14:13:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:13:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:13:52  SET names utf8
+16-05-18 14:13:52  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:14:17  SET names utf8
+16-05-18 14:14:17  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:16:07  SET names utf8
+16-05-18 14:16:07  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:16:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:16:12  SET names utf8
+16-05-18 14:16:12  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:16:18  SET names utf8
+16-05-18 14:16:18  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:16:18  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:16:19  SET names utf8
+16-05-18 14:16:19  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:16:20  SET names utf8
+16-05-18 14:16:20  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:16:20  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:16:22  SET names utf8
+16-05-18 14:16:22  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:16:25  SET names utf8
+16-05-18 14:16:25  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 14:16:25  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:16:25  SET names utf8
+16-05-18 14:16:25  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:16:25  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:16:25  SET names utf8
+16-05-18 14:16:25  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:16:25  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:16:26  SET names utf8
+16-05-18 14:16:26  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:16:28  SET names utf8
+16-05-18 14:16:28  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:16:28  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:16:28  SET names utf8
+16-05-18 14:16:28  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:16:32  SET names utf8
+16-05-18 14:16:32  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:16:32  SET names utf8
+16-05-18 14:16:32  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:16:33  SET names utf8
+16-05-18 14:16:33  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:16:33  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:16:35  SET names utf8
+16-05-18 14:16:35  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:16:39  SET names utf8
+16-05-18 14:16:39  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:16:39  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:16:50  SET names utf8
+16-05-18 14:16:50  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 14:16:50  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 14:16:50  SET names utf8
+16-05-18 14:16:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:16:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:16:58  SET names utf8
+16-05-18 14:16:58  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:17:03  SET names utf8
+16-05-18 14:17:03  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:17:03  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:17:04  SET names utf8
+16-05-18 14:17:04  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:17:13  SET names utf8
+16-05-18 14:17:13  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:19:14  SET names utf8
+16-05-18 14:19:14  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:20:21  SET names utf8
+16-05-18 14:20:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:20:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:20:21  SET names utf8
+16-05-18 14:20:21  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 14:20:21  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 14:20:21  SET names utf8
+16-05-18 14:20:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:20:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:20:23  SET names utf8
+16-05-18 14:20:23  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:23  SET names utf8
+16-05-18 14:20:23  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:20:27  SET names utf8
+16-05-18 14:20:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:20:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:20:28  SET names utf8
+16-05-18 14:20:28  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:33  SET names utf8
+16-05-18 14:20:33  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:34  SET names utf8
+16-05-18 14:20:34  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:35  SET names utf8
+16-05-18 14:20:35  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:20:37  SET names utf8
+16-05-18 14:20:37  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:38  SET names utf8
+16-05-18 14:20:38  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:39  SET names utf8
+16-05-18 14:20:39  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:40  SET names utf8
+16-05-18 14:20:40  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:41  SET names utf8
+16-05-18 14:20:41  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:20:41  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:20:43  SET names utf8
+16-05-18 14:20:43  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:44  SET names utf8
+16-05-18 14:20:44  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:45  SET names utf8
+16-05-18 14:20:45  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:50  SET names utf8
+16-05-18 14:20:50  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:20:52  SET names utf8
+16-05-18 14:20:52  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 14:20:52  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:20:52  SET names utf8
+16-05-18 14:20:52  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:20:52  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:20:59  SET names utf8
+16-05-18 14:20:59  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:01  SET names utf8
+16-05-18 14:21:01  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:02  SET names utf8
+16-05-18 14:21:02  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:03  SET names utf8
+16-05-18 14:21:03  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:21:03  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:21:05  SET names utf8
+16-05-18 14:21:05  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:10  SET names utf8
+16-05-18 14:21:10  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:15  SET names utf8
+16-05-18 14:21:15  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:18  SET names utf8
+16-05-18 14:21:18  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:19  SET names utf8
+16-05-18 14:21:19  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:20  SET names utf8
+16-05-18 14:21:20  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:21  SET names utf8
+16-05-18 14:21:21  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:21  SET names utf8
+16-05-18 14:21:21  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:23  SET names utf8
+16-05-18 14:21:23  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:23  SET names utf8
+16-05-18 14:21:23  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:25  SET names utf8
+16-05-18 14:21:25  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:21:25  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:21:26  SET names utf8
+16-05-18 14:21:26  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:28  SET names utf8
+16-05-18 14:21:28  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:21:28  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:21:29  SET names utf8
+16-05-18 14:21:29  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:31  SET names utf8
+16-05-18 14:21:31  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:21:31  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:21:36  SET names utf8
+16-05-18 14:21:36  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:40  SET names utf8
+16-05-18 14:21:40  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:21:40  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:21:41  SET names utf8
+16-05-18 14:21:41  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:42  SET names utf8
+16-05-18 14:21:42  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:43  SET names utf8
+16-05-18 14:21:43  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:21:43  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:21:44  SET names utf8
+16-05-18 14:21:44  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:21:49  SET names utf8
+16-05-18 14:21:49  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:25:59  SET names utf8
+16-05-18 14:25:59  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:25:59  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:26:01  SET names utf8
+16-05-18 14:26:01  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:03  SET names utf8
+16-05-18 14:26:03  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:04  SET names utf8
+16-05-18 14:26:04  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:06  SET names utf8
+16-05-18 14:26:06  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:07  SET names utf8
+16-05-18 14:26:07  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 14:26:07  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 14:26:07  SET names utf8
+16-05-18 14:26:07  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:26:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:26:08  SET names utf8
+16-05-18 14:26:08  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:09  SET names utf8
+16-05-18 14:26:09  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:09  SET names utf8
+16-05-18 14:26:09  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:10  SET names utf8
+16-05-18 14:26:10  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:11  SET names utf8
+16-05-18 14:26:11  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:12  SET names utf8
+16-05-18 14:26:12  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:12  SET names utf8
+16-05-18 14:26:12  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:13  SET names utf8
+16-05-18 14:26:13  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:13  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 14:26:15  SET names utf8
+16-05-18 14:26:15  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:17  SET names utf8
+16-05-18 14:26:17  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:26:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:26:18  SET names utf8
+16-05-18 14:26:18  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:19  SET names utf8
+16-05-18 14:26:19  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:26:19  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:26:20  SET names utf8
+16-05-18 14:26:20  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:22  SET names utf8
+16-05-18 14:26:22  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:26:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:26:23  SET names utf8
+16-05-18 14:26:23  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:26:24  SET names utf8
+16-05-18 14:26:24  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:26:24  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:30:32  SET names utf8
+16-05-18 14:30:32  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 14:30:32  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 14:30:32  SET names utf8
+16-05-18 14:30:32  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:30:32  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:30:36  SET names utf8
+16-05-18 14:30:36  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:30:42  SET names utf8
+16-05-18 14:30:42  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:30:42  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:44:41  SET names utf8
+16-05-18 14:44:41  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:44:41  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:44:51  SET names utf8
+16-05-18 14:44:51  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:44:54  SET names utf8
+16-05-18 14:44:54  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:44:54  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:44:54  SET names utf8
+16-05-18 14:44:54  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:44:57  SET names utf8
+16-05-18 14:44:57  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:44:57  SET names utf8
+16-05-18 14:44:57  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:44:57  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:44:58  SET names utf8
+16-05-18 14:44:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:44:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:44:59  SET names utf8
+16-05-18 14:44:59  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:45:00  SET names utf8
+16-05-18 14:45:00  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:45:00  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:45:01  SET names utf8
+16-05-18 14:45:01  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:45:02  SET names utf8
+16-05-18 14:45:02  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:45:03  SET names utf8
+16-05-18 14:45:03  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:45:03  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:45:04  SET names utf8
+16-05-18 14:45:04  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:45:06  SET names utf8
+16-05-18 14:45:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:45:06  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:45:07  SET names utf8
+16-05-18 14:45:07  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:45:09  SET names utf8
+16-05-18 14:45:09  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:46:22  SET names utf8
+16-05-18 14:46:22  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
+16-05-18 14:46:27  SET names utf8
+16-05-18 14:46:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:46:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:46:59  SET names utf8
+16-05-18 14:46:59  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 14:46:59  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 14:46:59  SET names utf8
+16-05-18 14:46:59  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:46:59  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:47:01  SET names utf8
+16-05-18 14:47:01  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:47:04  SET names utf8
+16-05-18 14:47:04  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:47:04  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:47:06  SET names utf8
+16-05-18 14:47:06  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:47:07  SET names utf8
+16-05-18 14:47:07  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:47:07  SELECT goods_number, goods_id FROM goods WHERE goods_id = 13
+16-05-18 14:47:13  SET names utf8
+16-05-18 14:47:13  SELECT * FROM cart WHERE user_id = 7
+16-05-18 14:47:18  SET names utf8
+16-05-18 14:47:18  SELECT user_id FROM user WHERE username = "阳光普照" AND passwd = "9904a78e3d78f40cce5a0f0755262638" AND locked = 0 LIMIT 1
+16-05-18 14:47:18  SELECT openid FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:47:18  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:47:38  SET names utf8
+16-05-18 14:47:38  SELECT user_id FROM user WHERE username = "阳光普照" AND passwd = "9904a78e3d78f40cce5a0f0755262638" AND locked = 0 LIMIT 1
+16-05-18 14:47:38  SELECT openid FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:47:38  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:47:52  SET names utf8
+16-05-18 14:47:52  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:47:52  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:48:56  SET names utf8
+16-05-18 14:48:56  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:48:56  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:48:58  SET names utf8
+16-05-18 14:48:58  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:49:04  SET names utf8
+16-05-18 14:49:04  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:49:05  SET names utf8
+16-05-18 14:49:05  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:49:06  SET names utf8
+16-05-18 14:49:06  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:49:07  SET names utf8
+16-05-18 14:49:07  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:49:09  SET names utf8
+16-05-18 14:49:09  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:49:19  SET names utf8
+16-05-18 14:49:19  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:49:22  SET names utf8
+16-05-18 14:49:22  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:49:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:49:23  SET names utf8
+16-05-18 14:49:23  SELECT * FROM goods WHERE goods_id = 11 LIMIT 1
+16-05-18 14:49:27  SET names utf8
+16-05-18 14:49:27  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:49:27  SET names utf8
+16-05-18 14:49:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:49:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:49:33  SET names utf8
+16-05-18 14:49:33  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:49:33  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:49:36  SET names utf8
+16-05-18 14:49:36  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:49:39  SET names utf8
+16-05-18 14:49:39  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:49:39  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:49:41  SET names utf8
+16-05-18 14:49:41  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:49:41  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:49:43  SET names utf8
+16-05-18 14:49:43  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:49:48  SET names utf8
+16-05-18 14:49:48  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:49:49  SET names utf8
+16-05-18 14:49:49  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:49:51  SET names utf8
+16-05-18 14:49:51  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:49:52  SET names utf8
+16-05-18 14:49:52  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:49:56  SET names utf8
+16-05-18 14:49:56  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:49:57  SET names utf8
+16-05-18 14:49:57  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:49:57  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:49:58  SET names utf8
+16-05-18 14:49:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:49:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:50:01  SET names utf8
+16-05-18 14:50:01  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:50:02  SET names utf8
+16-05-18 14:50:02  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:50:05  SET names utf8
+16-05-18 14:50:05  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:50:14  SET names utf8
+16-05-18 14:50:14  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:50:21  SET names utf8
+16-05-18 14:50:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:50:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:50:43  SET names utf8
+16-05-18 14:50:43  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:50:43  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:51:08  SET names utf8
+16-05-18 14:51:08  SELECT user_id FROM user WHERE username = "阳光普照" AND passwd = "9904a78e3d78f40cce5a0f0755262638" AND locked = 0 LIMIT 1
+16-05-18 14:51:08  SELECT openid FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:51:08  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:51:19  SET names utf8
+16-05-18 14:51:19  SELECT user_id FROM user WHERE username = "阳光普照" AND passwd = "9904a78e3d78f40cce5a0f0755262638" AND locked = 0 LIMIT 1
+16-05-18 14:51:19  SELECT openid FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:51:19  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:51:26  SET names utf8
+16-05-18 14:51:26  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:51:26  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:51:28  SET names utf8
+16-05-18 14:51:28  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:51:41  SET names utf8
+16-05-18 14:51:41  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:51:49  SET names utf8
+16-05-18 14:51:49  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:51:57  SET names utf8
+16-05-18 14:51:57  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:52:00  SET names utf8
+16-05-18 14:52:00  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 14:52:02  SET names utf8
+16-05-18 14:52:02  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:52:04  SET names utf8
+16-05-18 14:52:04  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:52:06  SET names utf8
+16-05-18 14:52:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:52:06  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:52:14  SET names utf8
+16-05-18 14:52:14  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 14:52:14  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:52:14  SET names utf8
+16-05-18 14:52:14  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:52:14  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:52:21  SET names utf8
+16-05-18 14:52:21  SELECT * FROM category 
+16-05-18 14:52:21  SELECT * FROM category 
+16-05-18 14:52:21  SELECT * FROM category 
+16-05-18 14:52:21  SELECT * FROM category 
+16-05-18 14:52:21  SELECT * FROM category 
+16-05-18 14:52:21  SELECT * FROM category 
+16-05-18 14:52:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:52:21  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 14:52:28  SET names utf8
+16-05-18 14:52:28  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 14:52:31  SET names utf8
+16-05-18 14:52:31  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:52:31  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:52:34  SET names utf8
+16-05-18 14:52:34  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 14:52:37  SET names utf8
+16-05-18 14:52:37  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 14:52:37  SET names utf8
+16-05-18 14:52:37  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:52:37  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:52:41  SET names utf8
+16-05-18 14:52:41  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:52:45  SET names utf8
+16-05-18 14:52:45  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:52:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:52:49  SET names utf8
+16-05-18 14:52:49  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:52:49  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 14:52:49  SET names utf8
+16-05-18 14:52:49  SELECT * FROM category 
+16-05-18 14:52:49  SELECT * FROM category 
+16-05-18 14:52:49  SELECT * FROM category 
+16-05-18 14:52:49  SELECT * FROM category 
+16-05-18 14:52:49  SELECT * FROM category 
+16-05-18 14:52:49  SELECT * FROM category 
+16-05-18 14:52:49  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:52:49  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 14:52:55  SET names utf8
+16-05-18 14:52:55  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:53:00  SET names utf8
+16-05-18 14:53:00  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:53:02  SET names utf8
+16-05-18 14:53:02  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:53:02  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:53:05  SET names utf8
+16-05-18 14:53:05  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 14:53:05  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 14:53:05  SET names utf8
+16-05-18 14:53:05  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:53:05  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:53:11  SET names utf8
+16-05-18 14:53:11  SELECT * FROM category 
+16-05-18 14:53:11  SELECT * FROM category 
+16-05-18 14:53:11  SELECT * FROM category 
+16-05-18 14:53:11  SELECT * FROM category 
+16-05-18 14:53:11  SELECT * FROM category 
+16-05-18 14:53:11  SELECT * FROM category 
+16-05-18 14:53:11  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:53:11  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 14:53:16  SET names utf8
+16-05-18 14:53:16  SELECT * FROM category 
+16-05-18 14:53:16  SELECT * FROM category 
+16-05-18 14:53:16  SELECT * FROM category 
+16-05-18 14:53:16  SELECT * FROM category 
+16-05-18 14:53:16  SELECT * FROM category 
+16-05-18 14:53:16  SELECT * FROM category 
+16-05-18 14:53:16  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:53:16  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 14:53:24  SET names utf8
+16-05-18 14:53:24  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:53:31  SET names utf8
+16-05-18 14:53:31  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:53:31  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:53:34  SET names utf8
+16-05-18 14:53:34  SELECT * FROM category 
+16-05-18 14:53:34  SELECT * FROM category 
+16-05-18 14:53:34  SELECT * FROM category 
+16-05-18 14:53:34  SELECT * FROM category 
+16-05-18 14:53:34  SELECT * FROM category 
+16-05-18 14:53:34  SELECT * FROM category 
+16-05-18 14:53:34  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:53:34  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 14:57:04  SET names utf8
+16-05-18 14:57:04  SELECT * FROM category 
+16-05-18 14:57:04  SELECT * FROM category 
+16-05-18 14:57:04  SELECT * FROM category 
+16-05-18 14:57:04  SELECT * FROM category 
+16-05-18 14:57:04  SELECT * FROM category 
+16-05-18 14:57:04  SELECT * FROM category 
+16-05-18 14:57:04  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:57:04  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 14:57:07  SET names utf8
+16-05-18 14:57:07  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:57:10  SET names utf8
+16-05-18 14:57:10  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:57:10  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:57:13  SET names utf8
+16-05-18 14:57:13  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:57:16  SET names utf8
+16-05-18 14:57:16  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:57:47  SET names utf8
+16-05-18 14:57:47  SELECT * FROM cart WHERE user_id = 6
+16-05-18 14:58:07  SET names utf8
+16-05-18 14:58:07  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:58:07  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 14:58:09  SET names utf8
+16-05-18 14:58:09  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:58:12  SET names utf8
+16-05-18 14:58:12  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 14:58:12  SELECT * FROM category WHERE parent_id = 0
+16-05-18 14:58:16  SET names utf8
+16-05-18 14:58:16  SELECT * FROM cart WHERE user_id = 5
+16-05-18 14:58:16  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 15:00:14  SET names utf8
+16-05-18 15:00:14  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:00:16  SET names utf8
+16-05-18 15:00:16  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:00:18  SET names utf8
+16-05-18 15:00:18  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:00:18  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:00:19  SET names utf8
+16-05-18 15:00:19  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:00:42  SET names utf8
+16-05-18 15:00:42  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:00:42  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:00:44  SET names utf8
+16-05-18 15:00:44  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:00:44  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:00:46  SET names utf8
+16-05-18 15:00:46  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:00:46  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:00:47  SET names utf8
+16-05-18 15:00:47  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:00:47  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:00:48  SET names utf8
+16-05-18 15:00:48  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:00:57  SET names utf8
+16-05-18 15:00:57  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:01:25  SET names utf8
+16-05-18 15:01:25  SELECT user_id FROM user WHERE username = "阳光普照" AND passwd = "9904a78e3d78f40cce5a0f0755262638" AND locked = 0 LIMIT 1
+16-05-18 15:01:25  SELECT openid FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 15:01:25  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:01:25  SELECT cart_id FROM cart WHERE  goods_id = 13 AND user_id = 5 LIMIT 1
+16-05-18 15:01:25  UPDATE cart SET goods_num='2' WHERE cart_id = 22
+16-05-18 15:01:29  SET names utf8
+16-05-18 15:01:29  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:01:29  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:01:42  SET names utf8
+16-05-18 15:01:42  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:01:42  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:01:44  SET names utf8
+16-05-18 15:01:44  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:01:44  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:01:47  SET names utf8
+16-05-18 15:01:47  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:01:47  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:01:49  SET names utf8
+16-05-18 15:01:49  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:01:49  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:01:50  SET names utf8
+16-05-18 15:01:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:01:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:01:50  SET names utf8
+16-05-18 15:01:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:01:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:01:51  SET names utf8
+16-05-18 15:01:51  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:02:06  SET names utf8
+16-05-18 15:02:06  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 15:02:06  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 15:02:06  SET names utf8
+16-05-18 15:02:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:02:06  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:02:10  SET names utf8
+16-05-18 15:02:10  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:02:10  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 15:02:23  SET names utf8
+16-05-18 15:02:23  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:02:38  SET names utf8
+16-05-18 15:02:38  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:02:38  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 15:02:44  SET names utf8
+16-05-18 15:02:44  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:02:48  SET names utf8
+16-05-18 15:02:48  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:02:48  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 15:02:53  SET names utf8
+16-05-18 15:02:53  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:02:56  SET names utf8
+16-05-18 15:02:56  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:02:56  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 15:02:59  SET names utf8
+16-05-18 15:02:59  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:02:59  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:03:07  SET names utf8
+16-05-18 15:03:07  SELECT * FROM category 
+16-05-18 15:03:07  SELECT * FROM category 
+16-05-18 15:03:07  SELECT * FROM category 
+16-05-18 15:03:07  SELECT * FROM category 
+16-05-18 15:03:07  SELECT * FROM category 
+16-05-18 15:03:07  SELECT * FROM category 
+16-05-18 15:03:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:03:07  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 15:03:10  SET names utf8
+16-05-18 15:03:10  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:13  SET names utf8
+16-05-18 15:03:13  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:13  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 15:03:15  SET names utf8
+16-05-18 15:03:15  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:17  SET names utf8
+16-05-18 15:03:17  SELECT * FROM category 
+16-05-18 15:03:17  SELECT * FROM category 
+16-05-18 15:03:17  SELECT * FROM category 
+16-05-18 15:03:17  SELECT * FROM category 
+16-05-18 15:03:17  SELECT * FROM category 
+16-05-18 15:03:17  SELECT * FROM category 
+16-05-18 15:03:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:03:17  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 15:03:18  SET names utf8
+16-05-18 15:03:18  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:18  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 15:03:22  SET names utf8
+16-05-18 15:03:22  SELECT * FROM category 
+16-05-18 15:03:22  SELECT * FROM category 
+16-05-18 15:03:22  SELECT * FROM category 
+16-05-18 15:03:22  SELECT * FROM category 
+16-05-18 15:03:22  SELECT * FROM category 
+16-05-18 15:03:22  SELECT * FROM category 
+16-05-18 15:03:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:03:22  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 15:03:38  SET names utf8
+16-05-18 15:03:38  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:42  SET names utf8
+16-05-18 15:03:42  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:42  SELECT goods_number, goods_id FROM goods WHERE goods_id = 8
+16-05-18 15:03:47  SET names utf8
+16-05-18 15:03:47  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:52  SET names utf8
+16-05-18 15:03:52  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:52  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 15:03:55  SET names utf8
+16-05-18 15:03:55  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:58  SET names utf8
+16-05-18 15:03:58  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:03:58  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 15:04:07  SET names utf8
+16-05-18 15:04:07  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:04:16  SET names utf8
+16-05-18 15:04:16  SELECT * FROM category 
+16-05-18 15:04:16  SELECT * FROM category 
+16-05-18 15:04:16  SELECT * FROM category 
+16-05-18 15:04:16  SELECT * FROM category 
+16-05-18 15:04:16  SELECT * FROM category 
+16-05-18 15:04:16  SELECT * FROM category 
+16-05-18 15:04:16  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:04:16  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 15:04:18  SET names utf8
+16-05-18 15:04:18  SELECT * FROM cart WHERE user_id = 5
+16-05-18 15:05:17  SET names utf8
+16-05-18 15:05:17  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:05:23  SET names utf8
+16-05-18 15:05:23  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:05:23  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:05:25  SET names utf8
+16-05-18 15:05:25  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:05:51  SET names utf8
+16-05-18 15:05:51  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:05:51  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:05:52  SET names utf8
+16-05-18 15:05:52  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:11:59  SET names utf8
+16-05-18 15:11:59  SELECT * FROM category 
+16-05-18 15:11:59  SELECT * FROM category 
+16-05-18 15:11:59  SELECT * FROM category 
+16-05-18 15:11:59  SELECT * FROM category 
+16-05-18 15:11:59  SELECT * FROM category 
+16-05-18 15:11:59  SELECT * FROM category 
+16-05-18 15:11:59  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:11:59  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 15:12:59  SET names utf8
+16-05-18 15:12:59  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 15:12:59  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 15:12:59  SET names utf8
+16-05-18 15:12:59  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:12:59  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:13:06  SET names utf8
+16-05-18 15:13:06  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:13:11  SET names utf8
+16-05-18 15:13:11  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:13:11  SELECT goods_number, goods_id FROM goods WHERE goods_id = 13
+16-05-18 15:13:14  SET names utf8
+16-05-18 15:13:14  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:13:20  SET names utf8
+16-05-18 15:13:20  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 15:13:22  SET names utf8
+16-05-18 15:13:22  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:13:31  SET names utf8
+16-05-18 15:13:31  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:13:31  SELECT goods_number, goods_id FROM goods WHERE goods_id = 13
+16-05-18 15:13:31  SET names utf8
+16-05-18 15:13:31  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:13:33  SET names utf8
+16-05-18 15:13:33  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 15:13:33  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 15:13:34  SET names utf8
+16-05-18 15:13:34  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:13:34  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:13:37  SET names utf8
+16-05-18 15:13:37  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 15:13:40  SET names utf8
+16-05-18 15:13:40  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:13:44  SET names utf8
+16-05-18 15:13:44  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 15:13:49  SET names utf8
+16-05-18 15:13:49  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:13:49  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 15:13:49  SET names utf8
+16-05-18 15:13:49  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:13:51  SET names utf8
+16-05-18 15:13:51  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 15:13:54  SET names utf8
+16-05-18 15:13:54  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:14:03  SET names utf8
+16-05-18 15:14:03  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:14:03  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:14:04  SET names utf8
+16-05-18 15:14:04  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:14:04  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:14:05  SET names utf8
+16-05-18 15:14:05  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:14:09  SET names utf8
+16-05-18 15:14:09  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-18 15:14:09  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-18 15:14:09  SET names utf8
+16-05-18 15:14:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:14:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:14:11  SET names utf8
+16-05-18 15:14:11  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 15:14:13  SET names utf8
+16-05-18 15:14:13  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:14:13  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 15:14:13  INSERT INTO cart ( goods_id,user_id,goods_name,shop_price,thumb_img,is_on_sale,goods_num ) VALUES ( '12','7','修身女士小西','98.00','160510/t160510525210293.jpg','1','1' )
+16-05-18 15:14:32  SET names utf8
+16-05-18 15:14:32  SELECT * FROM cart WHERE user_id = 7
+16-05-18 15:14:32  SELECT goods_number, goods_id FROM goods WHERE goods_id = 13 OR goods_id = 12
+16-05-18 15:46:22  SET names utf8
+16-05-18 15:46:22  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:46:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:46:35  SET names utf8
+16-05-18 15:46:35  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:46:44  SET names utf8
+16-05-18 15:46:44  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:46:52  SET names utf8
+16-05-18 15:46:52  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:46:52  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:46:52  SET names utf8
+16-05-18 15:46:52  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:46:52  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:50:12  SET names utf8
+16-05-18 15:50:12  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:50:12  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:51:11  SET names utf8
+16-05-18 15:51:11  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:51:11  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:51:18  SET names utf8
+16-05-18 15:51:18  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:51:24  SET names utf8
+16-05-18 15:51:24  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:51:24  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:56:52  SET names utf8
+16-05-18 15:56:52  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:56:52  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:57:01  SET names utf8
+16-05-18 15:57:01  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:57:01  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:57:04  SET names utf8
+16-05-18 15:57:04  SELECT * FROM cart WHERE user_id = 6
+16-05-18 15:57:12  SET names utf8
+16-05-18 15:57:12  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:57:12  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:57:58  SET names utf8
+16-05-18 15:57:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 15:57:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 15:59:59  SET names utf8
+16-05-18 15:59:59  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:00:24  SET names utf8
+16-05-18 16:00:24  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:00:24  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:03:25  SET names utf8
+16-05-18 16:03:25  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:03:25  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:03:28  SET names utf8
+16-05-18 16:03:28  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:03:43  SET names utf8
+16-05-18 16:03:43  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:06:27  SET names utf8
+16-05-18 16:06:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:06:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:06:27  SET names utf8
+16-05-18 16:06:27  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:06:27  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:06:29  SET names utf8
+16-05-18 16:06:29  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:06:31  SET names utf8
+16-05-18 16:06:31  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:06:33  SET names utf8
+16-05-18 16:06:33  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:06:33  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:06:51  SET names utf8
+16-05-18 16:06:51  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:06:53  SET names utf8
+16-05-18 16:06:53  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:15:13  SET names utf8
+16-05-18 16:15:13  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:15:13  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:15:15  SET names utf8
+16-05-18 16:15:15  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:15:18  SET names utf8
+16-05-18 16:15:18  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:15:52  SET names utf8
+16-05-18 16:15:52  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:15:52  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:15:56  SET names utf8
+16-05-18 16:15:56  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:15:58  SET names utf8
+16-05-18 16:15:58  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:16:00  SET names utf8
+16-05-18 16:16:00  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:16:00  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:16:11  SET names utf8
+16-05-18 16:16:11  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:16:11  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:16:15  SET names utf8
+16-05-18 16:16:15  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:16:20  SET names utf8
+16-05-18 16:16:20  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:18:01  SET names utf8
+16-05-18 16:18:01  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:18:01  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:18:22  SET names utf8
+16-05-18 16:18:22  SELECT * FROM cart WHERE user_id = 5
+16-05-18 16:18:23  SET names utf8
+16-05-18 16:18:23  SELECT * FROM cart WHERE user_id = 5
+16-05-18 16:18:28  SET names utf8
+16-05-18 16:18:28  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:18:28  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:19:09  SET names utf8
+16-05-18 16:19:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:19:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:19:12  SET names utf8
+16-05-18 16:19:12  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:19:15  SET names utf8
+16-05-18 16:19:15  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:19:15  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:19:21  SET names utf8
+16-05-18 16:19:21  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:19:22  SET names utf8
+16-05-18 16:19:22  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:19:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:20:14  SET names utf8
+16-05-18 16:20:14  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:20:14  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:20:19  SET names utf8
+16-05-18 16:20:19  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:20:22  SET names utf8
+16-05-18 16:20:22  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:20:27  SET names utf8
+16-05-18 16:20:27  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:20:32  SET names utf8
+16-05-18 16:20:32  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:20:36  SET names utf8
+16-05-18 16:20:36  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:20:36  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:20:42  SET names utf8
+16-05-18 16:20:42  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:20:44  SET names utf8
+16-05-18 16:20:44  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:20:47  SET names utf8
+16-05-18 16:20:47  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:20:47  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:24:18  SET names utf8
+16-05-18 16:24:18  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:24:18  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:24:29  SET names utf8
+16-05-18 16:24:29  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:24:33  SET names utf8
+16-05-18 16:24:33  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:24:33  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:24:35  SET names utf8
+16-05-18 16:24:35  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:24:37  SET names utf8
+16-05-18 16:24:37  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:24:37  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:26:33  SET names utf8
+16-05-18 16:26:33  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:26:33  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:26:39  SET names utf8
+16-05-18 16:26:39  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:26:44  SET names utf8
+16-05-18 16:26:44  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:26:44  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:26:46  SET names utf8
+16-05-18 16:26:46  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:26:47  SET names utf8
+16-05-18 16:26:47  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:26:47  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:28:00  SET names utf8
+16-05-18 16:28:00  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:28:00  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:28:05  SET names utf8
+16-05-18 16:28:05  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:28:09  SET names utf8
+16-05-18 16:28:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:28:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:28:10  SET names utf8
+16-05-18 16:28:10  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:29:02  SET names utf8
+16-05-18 16:29:02  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:29:07  SET names utf8
+16-05-18 16:29:07  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:29:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:29:08  SET names utf8
+16-05-18 16:29:08  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:30:00  SET names utf8
+16-05-18 16:30:00  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:30:00  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:30:13  SET names utf8
+16-05-18 16:30:13  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:30:13  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:30:24  SET names utf8
+16-05-18 16:30:24  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:30:28  SET names utf8
+16-05-18 16:30:28  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:30:28  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:32:34  SET names utf8
+16-05-18 16:32:34  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:32:34  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:32:37  SET names utf8
+16-05-18 16:32:37  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:32:37  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:32:39  SET names utf8
+16-05-18 16:32:39  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:32:41  SET names utf8
+16-05-18 16:32:41  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:32:41  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:34:02  SET names utf8
+16-05-18 16:34:02  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:34:02  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:34:04  SET names utf8
+16-05-18 16:34:04  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:35:15  SET names utf8
+16-05-18 16:35:15  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:35:15  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:35:17  SET names utf8
+16-05-18 16:35:17  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:35:21  SET names utf8
+16-05-18 16:35:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:35:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:36:18  SET names utf8
+16-05-18 16:36:18  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:36:18  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:36:20  SET names utf8
+16-05-18 16:36:20  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:36:24  SET names utf8
+16-05-18 16:36:24  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:36:28  SET names utf8
+16-05-18 16:36:28  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:36:28  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:36:31  SET names utf8
+16-05-18 16:36:31  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 16:36:33  SET names utf8
+16-05-18 16:36:33  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:38:21  SET names utf8
+16-05-18 16:38:21  SELECT user_id FROM user WHERE openid = "oy7R3v_qXp_d7trG7l2ZvSoRcbzM" LIMIT 1
+16-05-18 16:38:21  SELECT * FROM user WHERE user_id = 6 LIMIT 1
+16-05-18 16:38:22  SET names utf8
+16-05-18 16:38:22  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:38:22  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:38:24  SET names utf8
+16-05-18 16:38:24  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:38:58  SET names utf8
+16-05-18 16:38:58  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 16:38:58  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 16:38:58  SET names utf8
+16-05-18 16:38:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:38:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:39:05  SET names utf8
+16-05-18 16:39:05  SELECT * FROM cart WHERE user_id = 5
+16-05-18 16:39:06  SET names utf8
+16-05-18 16:39:06  SELECT * FROM cart WHERE user_id = 5
+16-05-18 16:39:06  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 16:39:08  SET names utf8
+16-05-18 16:39:08  SELECT * FROM cart WHERE user_id = 5
+16-05-18 16:39:09  SET names utf8
+16-05-18 16:39:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:39:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:39:09  SET names utf8
+16-05-18 16:39:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:39:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:39:12  SET names utf8
+16-05-18 16:39:12  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:41:20  SET names utf8
+16-05-18 16:41:20  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:41:20  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:41:23  SET names utf8
+16-05-18 16:41:23  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 16:42:43  SET names utf8
+16-05-18 16:42:43  SELECT * FROM cart WHERE user_id = 5
+16-05-18 16:42:45  SET names utf8
+16-05-18 16:42:45  SELECT * FROM cart WHERE user_id = 5
+16-05-18 16:42:45  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-18 16:43:29  SET names utf8
+16-05-18 16:43:29  SELECT * FROM cart WHERE user_id = 5
+16-05-18 16:43:56  SET names utf8
+16-05-18 16:43:56  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:43:56  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:56:12  SET names utf8
+16-05-18 16:56:12  SELECT * FROM cart WHERE user_id = 6
+16-05-18 16:56:15  SET names utf8
+16-05-18 16:56:15  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:56:15  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:56:20  SET names utf8
+16-05-18 16:56:20  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 16:56:36  SET names utf8
+16-05-18 16:56:36  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:56:36  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:56:45  SET names utf8
+16-05-18 16:56:45  SELECT * FROM category 
+16-05-18 16:56:45  SELECT * FROM category 
+16-05-18 16:56:45  SELECT * FROM category 
+16-05-18 16:56:45  SELECT * FROM category 
+16-05-18 16:56:45  SELECT * FROM category 
+16-05-18 16:56:45  SELECT * FROM category 
+16-05-18 16:56:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:56:45  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 16:56:54  SET names utf8
+16-05-18 16:56:54  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:56:54  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:57:00  SET names utf8
+16-05-18 16:57:00  SELECT * FROM category 
+16-05-18 16:57:00  SELECT * FROM category 
+16-05-18 16:57:00  SELECT * FROM category 
+16-05-18 16:57:00  SELECT * FROM category WHERE cate_id = 7 LIMIT 1
+16-05-18 16:57:00  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:57:00  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 16:57:09  SET names utf8
+16-05-18 16:57:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 16:57:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:57:12  SET names utf8
+16-05-18 16:57:12  SELECT * FROM category 
+16-05-18 16:57:12  SELECT * FROM category 
+16-05-18 16:57:12  SELECT * FROM category WHERE cate_id = 8 LIMIT 1
+16-05-18 16:57:12  SELECT * FROM category WHERE parent_id = 0
+16-05-18 16:57:12  SELECT * FROM goods WHERE is_delete = 0
+16-05-18 16:57:25  SET names utf8
+16-05-18 16:57:25  SELECT * FROM goods WHERE goods_id = 9 LIMIT 1
+16-05-18 17:00:12  SET names utf8
+16-05-18 17:00:12  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:00:12  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:00:15  SET names utf8
+16-05-18 17:00:15  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:00:15  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:00:21  SET names utf8
+16-05-18 17:00:21  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:00:21  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:00:40  SET names utf8
+16-05-18 17:00:40  SELECT user_id FROM user WHERE openid = "oy7R3vxhgYuBz79m0b21ol9Gptdw" LIMIT 1
+16-05-18 17:00:40  SELECT * FROM user WHERE user_id = 5 LIMIT 1
+16-05-18 17:00:40  SET names utf8
+16-05-18 17:00:40  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:00:40  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:00:54  SET names utf8
+16-05-18 17:00:54  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:00:54  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:00:59  SET names utf8
+16-05-18 17:00:59  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:00:59  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:01:06  SET names utf8
+16-05-18 17:01:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:01:06  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:01:08  SET names utf8
+16-05-18 17:01:08  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:01:08  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:01:09  SET names utf8
+16-05-18 17:01:09  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:01:09  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:01:11  SET names utf8
+16-05-18 17:01:11  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:01:11  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:01:13  SET names utf8
+16-05-18 17:01:13  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:01:13  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:02:03  SET names utf8
+16-05-18 17:02:03  SELECT * FROM cart WHERE user_id = 5
+16-05-18 17:02:19  SET names utf8
+16-05-18 17:02:19  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:02:19  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:02:55  SET names utf8
+16-05-18 17:02:55  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:02:55  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:02:59  SET names utf8
+16-05-18 17:02:59  SELECT * FROM cart WHERE user_id = 6
+16-05-18 17:03:01  SET names utf8
+16-05-18 17:03:01  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:03:01  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:03:20  SET names utf8
+16-05-18 17:03:20  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:03:20  SELECT * FROM category WHERE parent_id = 0
+16-05-18 17:03:56  SET names utf8
+16-05-18 17:03:56  SELECT * FROM cart WHERE user_id = 5
+16-05-18 17:03:59  SET names utf8
+16-05-18 17:03:59  SELECT * FROM cart WHERE user_id = 5
+16-05-18 17:04:03  SET names utf8
+16-05-18 17:04:03  SELECT * FROM cart WHERE user_id = 5
+16-05-18 17:04:05  SET names utf8
+16-05-18 17:04:05  SELECT * FROM cart WHERE user_id = 5
+16-05-18 17:04:07  SET names utf8
+16-05-18 17:04:07  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 17:04:07  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:10:24  SET names utf8
+16-05-18 21:10:24  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:10:24  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:10:42  SET names utf8
+16-05-18 21:10:42  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:10:42  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:10:45  SET names utf8
+16-05-18 21:10:45  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:10:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:10:49  SET names utf8
+16-05-18 21:10:49  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:10:49  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:10:50  SET names utf8
+16-05-18 21:10:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:10:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:10:55  SET names utf8
+16-05-18 21:10:55  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:10:55  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:11:30  SET names utf8
+16-05-18 21:11:30  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:11:30  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:11:38  SET names utf8
+16-05-18 21:11:38  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:11:38  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:11:42  SET names utf8
+16-05-18 21:11:42  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:11:42  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:11:50  SET names utf8
+16-05-18 21:11:50  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:11:50  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:11:53  SET names utf8
+16-05-18 21:11:53  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:11:53  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:11:55  SET names utf8
+16-05-18 21:11:55  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:11:55  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:12:02  SET names utf8
+16-05-18 21:12:02  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 21:12:04  SET names utf8
+16-05-18 21:12:04  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 21:12:10  SET names utf8
+16-05-18 21:12:10  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 21:12:13  SET names utf8
+16-05-18 21:12:13  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 21:12:17  SET names utf8
+16-05-18 21:12:17  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:12:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:12:18  SET names utf8
+16-05-18 21:12:18  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 21:12:19  SET names utf8
+16-05-18 21:12:19  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 21:12:23  SET names utf8
+16-05-18 21:12:23  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 21:15:08  SET names utf8
+16-05-18 21:15:08  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 21:15:11  SET names utf8
+16-05-18 21:15:11  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:15:11  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:15:13  SET names utf8
+16-05-18 21:15:13  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 21:15:14  SET names utf8
+16-05-18 21:15:14  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 21:15:29  SET names utf8
+16-05-18 21:15:29  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:15:29  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:15:31  SET names utf8
+16-05-18 21:15:31  SELECT * FROM goods WHERE goods_id = 11 LIMIT 1
+16-05-18 21:15:34  SET names utf8
+16-05-18 21:15:34  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:15:34  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:15:38  SET names utf8
+16-05-18 21:15:38  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 21:16:09  SET names utf8
+16-05-18 21:16:09  SELECT user_id FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 21:16:09  SELECT locked FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 21:16:09  UPDATE user SET passwd='3483eac8f18dc70b00b774db2f414ca7' WHERE user_id = 3
+16-05-18 21:16:09  SELECT user_id FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 21:16:09  SELECT locked FROM user WHERE openid = "oy7R3v45-aq1Q9_CItwz54cF4_rE" LIMIT 1
+16-05-18 21:16:09  UPDATE user SET passwd='525e3be4b5ead1f2580cb925780f9e3d' WHERE user_id = 3
+16-05-18 21:16:19  SET names utf8
+16-05-18 21:16:19  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 21:16:19  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 21:16:19  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:16:19  SELECT cart_id FROM cart WHERE  goods_id = 12 AND user_id = 3 LIMIT 1
+16-05-18 21:16:19  UPDATE cart SET goods_num='9' WHERE cart_id = 18
+16-05-18 21:16:19  SELECT cart_id FROM cart WHERE  goods_id = 13 AND user_id = 3 LIMIT 1
+16-05-18 21:16:19  UPDATE cart SET goods_num='3' WHERE cart_id = 19
+16-05-18 21:16:19  SELECT cart_id FROM cart WHERE  goods_id = 8 AND user_id = 3 LIMIT 1
+16-05-18 21:16:19  UPDATE cart SET goods_num='4' WHERE cart_id = 21
+16-05-18 21:16:26  SET names utf8
+16-05-18 21:16:26  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:16:28  SET names utf8
+16-05-18 21:16:28  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:16:36  SET names utf8
+16-05-18 21:16:36  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:17:45  SET names utf8
+16-05-18 21:17:45  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:22:42  SET names utf8
+16-05-18 21:22:42  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:22:42  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:22:46  SET names utf8
+16-05-18 21:22:46  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 21:25:05  SET names utf8
+16-05-18 21:25:05  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 21:25:05  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 21:25:05  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:26:45  SET names utf8
+16-05-18 21:26:45  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:26:45  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:26:47  SET names utf8
+16-05-18 21:26:47  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 21:26:49  SET names utf8
+16-05-18 21:26:49  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 21:27:26  SET names utf8
+16-05-18 21:27:26  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 21:27:26  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 21:27:26  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:27:26  SELECT cart_id FROM cart WHERE  goods_id = 10 AND user_id = 3 LIMIT 1
+16-05-18 21:27:26  UPDATE cart SET goods_num='2' WHERE cart_id = 23
+16-05-18 21:28:23  SET names utf8
+16-05-18 21:28:23  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 21:28:23  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 21:28:23  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:31:14  SET names utf8
+16-05-18 21:31:14  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:31:14  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:31:16  SET names utf8
+16-05-18 21:31:16  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 21:31:18  SET names utf8
+16-05-18 21:31:18  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:31:18  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 21:31:18  SET names utf8
+16-05-18 21:31:18  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:31:20  SET names utf8
+16-05-18 21:31:20  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:31:35  SET names utf8
+16-05-18 21:31:35  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:31:35  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:31:37  SET names utf8
+16-05-18 21:31:37  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 21:31:39  SET names utf8
+16-05-18 21:31:39  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 21:32:24  SET names utf8
+16-05-18 21:32:24  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 21:32:24  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 21:32:24  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:32:24  SELECT cart_id FROM cart WHERE  goods_id = 10 AND user_id = 3 LIMIT 1
+16-05-18 21:32:24  UPDATE cart SET goods_num='3' WHERE cart_id = 23
+16-05-18 21:32:24  SET names utf8
+16-05-18 21:32:24  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:32:24  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:32:34  SET names utf8
+16-05-18 21:32:34  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:32:34  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:32:36  SET names utf8
+16-05-18 21:32:36  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:53:39  SET names utf8
+16-05-18 21:53:39  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
+16-05-18 21:53:44  SET names utf8
+16-05-18 21:53:44  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:53:44  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:53:47  SET names utf8
+16-05-18 21:53:47  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 21:53:49  SET names utf8
+16-05-18 21:53:49  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 21:54:06  SET names utf8
+16-05-18 21:54:06  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 21:54:06  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 21:54:06  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:54:06  SELECT cart_id FROM cart WHERE  goods_id = 12 AND user_id = 3 LIMIT 1
+16-05-18 21:54:06  UPDATE cart SET goods_num='10' WHERE cart_id = 18
+16-05-18 21:54:54  SET names utf8
+16-05-18 21:54:54  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 21:54:54  SELECT * FROM category WHERE parent_id = 0
+16-05-18 21:54:56  SET names utf8
+16-05-18 21:54:56  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 21:54:57  SET names utf8
+16-05-18 21:54:57  SELECT * FROM goods WHERE goods_id = 10 LIMIT 1
+16-05-18 21:55:14  SET names utf8
+16-05-18 21:55:14  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 21:55:14  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 21:55:14  SELECT * FROM cart WHERE user_id = 3
+16-05-18 21:55:14  SELECT cart_id FROM cart WHERE  goods_id = 10 AND user_id = 3 LIMIT 1
+16-05-18 21:55:14  UPDATE cart SET goods_num='4' WHERE cart_id = 23
+16-05-18 22:00:29  SET names utf8
+16-05-18 22:00:29  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:00:29  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:00:30  SET names utf8
+16-05-18 22:00:30  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 22:00:32  SET names utf8
+16-05-18 22:00:32  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-18 22:00:55  SET names utf8
+16-05-18 22:00:55  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "6383947acc971cb0c26bf9d7fd1d4380" AND locked = 0 LIMIT 1
+16-05-18 22:01:10  SET names utf8
+16-05-18 22:01:10  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
+16-05-18 22:10:02  SET names utf8
+16-05-18 22:10:02  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:10:02  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:10:02  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:10:02  SELECT cart_id FROM cart WHERE  goods_id = 12 AND user_id = 3 LIMIT 1
+16-05-18 22:10:02  UPDATE cart SET goods_num='11' WHERE cart_id = 18
+16-05-18 22:10:02  SET names utf8
+16-05-18 22:10:02  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:10:02  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:10:06  SET names utf8
+16-05-18 22:10:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:10:06  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:10:08  SET names utf8
+16-05-18 22:10:08  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 22:10:10  SET names utf8
+16-05-18 22:10:10  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:10:10  SELECT * FROM goods WHERE goods_id = 13 LIMIT 1
+16-05-18 22:10:10  SELECT cart_id FROM cart WHERE  goods_id = 13 AND user_id = 3 LIMIT 1
+16-05-18 22:10:10  UPDATE cart SET goods_num='4' WHERE cart_id = 19
+16-05-18 22:10:12  SET names utf8
+16-05-18 22:10:12  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:10:16  SET names utf8
+16-05-18 22:10:16  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:14:47  SET names utf8
+16-05-18 22:14:47  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:14:47  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:15:31  SET names utf8
+16-05-18 22:15:31  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:15:31  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:15:31  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:15:31  SET names utf8
+16-05-18 22:15:31  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:15:31  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:15:58  SET names utf8
+16-05-18 22:15:58  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:15:58  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:16:26  SET names utf8
+16-05-18 22:16:26  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:16:26  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:16:26  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:17:17  SET names utf8
+16-05-18 22:17:17  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:17:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:17:49  SET names utf8
+16-05-18 22:17:49  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:17:49  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:17:49  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:17:49  SET names utf8
+16-05-18 22:17:49  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:17:49  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:18:34  SET names utf8
+16-05-18 22:18:34  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:18:34  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:18:46  SET names utf8
+16-05-18 22:18:46  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:18:46  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:18:46  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:21:53  SET names utf8
+16-05-18 22:21:53  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "47897a975120ef6b307bba64f6b9416a" AND locked = 0 LIMIT 1
+16-05-18 22:22:06  SET names utf8
+16-05-18 22:22:06  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:22:06  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:22:06  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:22:06  SET names utf8
+16-05-18 22:22:06  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:22:06  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:22:47  SET names utf8
+16-05-18 22:22:47  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:22:47  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:22:47  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:23:39  SET names utf8
+16-05-18 22:23:39  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:23:39  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:24:17  SET names utf8
+16-05-18 22:24:17  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:24:17  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:24:17  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:24:17  SET names utf8
+16-05-18 22:24:17  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:24:17  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:24:57  SET names utf8
+16-05-18 22:24:57  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:24:57  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:24:57  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:26:14  SET names utf8
+16-05-18 22:26:14  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:26:14  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:26:14  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:27:34  SET names utf8
+16-05-18 22:27:34  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:27:34  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:27:34  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:27:34  SET names utf8
+16-05-18 22:27:34  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 22:27:34  SELECT * FROM category WHERE parent_id = 0
+16-05-18 22:28:27  SET names utf8
+16-05-18 22:28:27  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:28:27  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:28:27  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:30:25  SET names utf8
+16-05-18 22:30:25  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:30:25  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:30:25  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:32:53  SET names utf8
+16-05-18 22:32:53  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:32:53  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:32:53  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:33:40  SET names utf8
+16-05-18 22:33:40  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:33:40  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:33:40  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:37:09  SET names utf8
+16-05-18 22:37:09  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:37:09  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:37:09  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:39:29  SET names utf8
+16-05-18 22:39:29  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:39:29  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:39:29  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:40:37  SET names utf8
+16-05-18 22:40:37  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:40:37  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:40:37  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:41:37  SET names utf8
+16-05-18 22:41:37  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:41:37  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:41:37  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:43:37  SET names utf8
+16-05-18 22:43:37  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:43:37  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:43:37  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:44:38  SET names utf8
+16-05-18 22:44:38  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:44:38  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:44:38  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:46:13  SET names utf8
+16-05-18 22:46:13  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:46:13  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:46:13  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:50:47  SET names utf8
+16-05-18 22:50:47  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:50:47  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:50:47  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:50:47  SET names utf8
+16-05-18 22:50:47  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:52:02  SET names utf8
+16-05-18 22:52:02  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:52:02  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:52:02  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:52:02  SET names utf8
+16-05-18 22:52:02  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:53:25  SET names utf8
+16-05-18 22:53:25  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 22:53:25  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 22:53:25  SELECT * FROM cart WHERE user_id = 3
+16-05-18 22:53:25  SET names utf8
+16-05-18 22:53:25  SELECT * FROM cart WHERE user_id = 3
+16-05-18 23:00:34  SET names utf8
+16-05-18 23:00:34  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 23:00:34  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 23:00:34  SELECT * FROM cart WHERE user_id = 3
+16-05-18 23:00:34  SET names utf8
+16-05-18 23:00:34  SELECT * FROM cart WHERE user_id = 3
+16-05-18 23:01:38  SET names utf8
+16-05-18 23:01:38  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 23:01:38  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 23:01:38  SELECT * FROM cart WHERE user_id = 3
+16-05-18 23:01:38  SET names utf8
+16-05-18 23:01:38  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 23:01:38  SELECT * FROM category WHERE parent_id = 0
+16-05-18 23:01:43  SET names utf8
+16-05-18 23:01:43  SELECT * FROM goods WHERE goods_id = 8 LIMIT 1
+16-05-18 23:03:53  SET names utf8
+16-05-18 23:03:53  SELECT user_id FROM user WHERE username = "zuixinan" AND passwd = "525e3be4b5ead1f2580cb925780f9e3d" AND locked = 0 LIMIT 1
+16-05-18 23:03:53  SELECT openid FROM user WHERE user_id = 3 LIMIT 1
+16-05-18 23:03:53  SELECT * FROM cart WHERE user_id = 3
+16-05-18 23:03:53  SET names utf8
+16-05-18 23:03:53  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-18 23:03:53  SELECT * FROM category WHERE parent_id = 0
+16-05-19 08:25:50  SET names utf8
+16-05-19 08:25:50  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
+16-05-19 08:27:12  SET names utf8
+16-05-19 08:27:12  SELECT user_id FROM user WHERE openid = "oy7R3v_v6tSOAY22J1qxPwgYqmdY" LIMIT 1
+16-05-19 08:27:12  SELECT * FROM user WHERE user_id = 7 LIMIT 1
+16-05-19 08:27:12  SET names utf8
+16-05-19 08:27:12  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-19 08:27:12  SELECT * FROM category WHERE parent_id = 0
+16-05-19 08:27:14  SET names utf8
+16-05-19 08:27:14  SELECT * FROM goods WHERE is_delete = 0 AND is_new = 1 ORDER BY add_time DESC LIMIT 0, 20
+16-05-19 08:27:14  SELECT * FROM category WHERE parent_id = 0
+16-05-19 08:27:20  SET names utf8
+16-05-19 08:27:20  SELECT * FROM cart WHERE user_id = 7
+16-05-19 08:27:24  SET names utf8
+16-05-19 08:27:24  SELECT * FROM cart WHERE user_id = 7
+16-05-19 08:27:24  SELECT goods_number, goods_id FROM goods WHERE goods_id = 13 OR goods_id = 12
+16-05-19 08:27:27  SET names utf8
+16-05-19 08:27:27  SELECT * FROM cart WHERE user_id = 7

@@ -1,0 +1,76 @@
+#栏目表
+CREATE TABLE `shop`.`category` ( 
+`cate_id` INT NOT NULL AUTO_INCREMENT COMMENT '栏目id' , 
+`cate_name` VARCHAR(20) NOT NULL DEFAULT '' COMMENT '栏目名称' , 
+`cate_intro` VARCHAR(100) NOT NULL DEFAULT '' COMMENT '栏木简介' , 
+`parent_id` INT NOT NULL DEFAULT '0' COMMENT '父栏目id' , 
+PRIMARY KEY (`cate_id`)
+) ENGINE = InnoDB CHARACTER SET utf8 COMMENT = '栏目表';
+
+#商品表
+CREATE TABLE `shop`.`goods` ( 
+`goods_id` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '商品id' , 
+`goods_sn` CHAR(15) NOT NULL DEFAULT '' , 
+`cate_id` SMALLINT(6) NOT NULL DEFAULT '0' , 
+`brand_id` SMALLINT(6) NOT NULL DEFAULT '0' , 
+`goods_name` VARCHAR(30) NOT NULL DEFAULT '' , 
+`shop_price` DECIMAL(9,2) NOT NULL DEFAULT '0.00' , 
+`market_price` DECIMAL(9,2) NOT NULL DEFAULT '0.00' , 
+`goods_number` SMALLINT(6) NOT NULL DEFAULT '1' , 
+`click_count` MEDIUMINT(9) NOT NULL DEFAULT '0' , 
+`goods_weight` DECIMAL(6,3) NOT NULL DEFAULT '0.000' , 
+`goods_brief` VARCHAR(100) NOT NULL DEFAULT '' , 
+`goods_tesc` TEXT NOT NULL , 
+`thumb_img` VARCHAR(30) NOT NULL DEFAULT '' , 
+`goods_img` VARCHAR(30) NOT NULL DEFAULT '' , 
+`ori_img` VARCHAR(30) NOT NULL DEFAULT '' , 
+`is_on_sale` TINYINT(4) NOT NULL DEFAULT '1' , 
+`is_delete` TINYINT(4) NOT NULL DEFAULT '0' , 
+`is_best` TINYINT(4) NOT NULL DEFAULT '0' , 
+`is_new` TINYINT(4) NOT NULL DEFAULT '0' , 
+`is_hot` TINYINT(4) NOT NULL DEFAULT '0' , 
+`add_time` INT(10) UNSIGNED NOT NULL DEFAULT '0' , 
+`last_update` INT(10) UNSIGNED NOT NULL DEFAULT '0' , 
+PRIMARY KEY (`goods_id`),
+UNIQUE KEY `goods_sn` (`goods_sn`)
+) ENGINE = InnoDB DEFAULT CHARSET=utf8;
+
+#用户表
+CREATE TABLE `user` (
+ `user_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '用户id',
+ `username` varchar(50) NOT NULL DEFAULT '' COMMENT '用户名',
+ `email` varchar(30) NOT NULL DEFAULT '' COMMENT '邮箱',
+ `passwd` char(32) NOT NULL DEFAULT '' COMMENT '密码',
+ `regtime` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '注册时间',
+ `lastlogin` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '上次登陆时间',
+ `openid` char(30) NOT NULL DEFAULT '',
+ `nickname` varchar(50) NOT NULL DEFAULT '',
+ PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='用户表'
+
+
+#购物车表
+CREATE TABLE `cart` (
+ `cart_id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+ `goods_id` int(10) unsigned NOT NULL COMMENT '商品id',
+ `user_id` int(10) unsigned NOT NULL COMMENT '用户id',
+ `goods_name` varchar(30) NOT NULL COMMENT '用户名',
+ `shop_price` decimal(9,2) NOT NULL DEFAULT '0.00' COMMENT '商品价格',
+ `thumb_img` varchar(30) NOT NULL,
+ `is_on_sale` tinyint(4) NOT NULL DEFAULT '1',
+ `goods_num` int(10) unsigned NOT NULL DEFAULT '1',
+ PRIMARY KEY (`cart_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='购物车表'
+
+
+#买家地址
+CREATE TABLE `address` (
+  `address_id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT '地址ID',
+  `user_id` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '会员ID',
+  `true_name` varchar(50) NOT NULL COMMENT '会员姓名',
+  `area_info` varchar(255) NOT NULL DEFAULT '' COMMENT '详细地址',
+  `tel_phone` varchar(20) DEFAULT NULL COMMENT '座机电话',
+  `mob_phone` varchar(15) DEFAULT NULL COMMENT '手机电话',
+  `is_default` enum('0','1') NOT NULL DEFAULT '0' COMMENT '1为默认收货地址',
+  PRIMARY KEY (`address_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='买家地址信息表'
