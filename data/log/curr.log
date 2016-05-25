@@ -4459,3 +4459,42 @@
 16-05-25 21:42:59  SET names utf8
 16-05-25 21:42:59  SELECT * FROM cart WHERE user_id = 3
 16-05-25 21:42:59  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9 OR goods_id = 8
+16-05-25 21:53:09  SET names utf8
+16-05-25 21:53:09  SELECT * FROM cart WHERE user_id = 3
+16-05-25 21:53:13  SET names utf8
+16-05-25 21:53:13  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:03:15  SET names utf8
+16-05-25 22:03:15  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:03:20  SET names utf8
+16-05-25 22:03:20  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:03:20  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-25 22:04:18  SET names utf8
+16-05-25 22:04:18  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:04:18  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-25 22:07:18  SET names utf8
+16-05-25 22:07:18  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:07:20  SET names utf8
+16-05-25 22:07:20  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:07:21  SET names utf8
+16-05-25 22:07:21  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:07:30  SET names utf8
+16-05-25 22:07:30  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:07:32  SET names utf8
+16-05-25 22:07:32  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:07:33  SET names utf8
+16-05-25 22:07:33  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:07:36  SET names utf8
+16-05-25 22:07:36  SELECT * FROM goods WHERE goods_id = 12 LIMIT 1
+16-05-25 22:07:37  SET names utf8
+16-05-25 22:07:37  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:11:14  SET names utf8
+16-05-25 22:11:14  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:11:14  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-25 22:23:12  SET names utf8
+16-05-25 22:23:12  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:23:12  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-25 22:31:11  SET names utf8
+16-05-25 22:31:11  SELECT * FROM cart WHERE user_id = 3
+16-05-25 22:31:11  SELECT goods_number, goods_id FROM goods WHERE goods_id = 9
+16-05-25 23:11:21  SET names utf8
+16-05-25 23:11:21  SELECT * FROM cart WHERE user_id = 3

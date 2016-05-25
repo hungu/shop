@@ -84,7 +84,28 @@ class test {
 	var_dump($cart->get_price());
 */
 
-	$back = $_SERVER['HTTP_REFERER'];
+	/*$back = $_SERVER['HTTP_REFERER'];*/
 	/*echo dirname($back);*/
 	/*echo $back;*/
-	echo substr($back, -8);
+	/*echo substr($back, -8);*/
+
+
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="3.php" method="post">
+		<input type="hidden" name='id[]' value='1'>
+		<input type="hidden" name='id[]' value='2'>
+		<input type="hidden" name='id[]' value='3'>
+		<input type="hidden" name='id[]' value='4'>
+		<input type="submit">
+	</form>	
+</body>
+</html>

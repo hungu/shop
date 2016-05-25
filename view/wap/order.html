@@ -15,7 +15,7 @@
 <body>
 <div class="body">
     <div class="tour">
-        <a href="javascript:history.go(-1)" class="tour1"><img src="../view/wap/img/back.png" alt="" style="height: 26px;width: 20px"></a>
+        <a href="javascript:history.go(-1)" class="tour1"><img src="../view/wap/img/back.png" alt="返回" style="height: 26px;width: 20px"></a>
         <p>订单确认</p>
     </div>
     <div class="header3">
@@ -46,6 +46,7 @@
             <li class="li2"><span><?php echo $cart_list[$goods_id]['name'] ?></span></li>
             <li class="li3"><span>×<?php echo $cart_list[$goods_id]['num'] ?></span><br/><span style="color: red">￥<?php echo $cart_list[$goods_id]['price'] ?></span></li>
         </ul>
+        <input type="hidden" name='goods_id[]' value='<?php echo $goods_id; ?>'><!-- 提交订单时的商品id -->
     </div>
     <?php } ?>
 <!--     <div class="zfdd">
@@ -149,3 +150,10 @@
 <div class="theme-popover-mask"></div>
 </body>
 </html>
+
+<!-- 订单页面提交表单
+    adder           收获地址 0为自提  其它为adder的id      int
+    $goods_id       订单商品id(具体信息从购物车提取)       array()
+    $pay_type       支付方式                               int
+    $msg            买家留言                               string
+ -->

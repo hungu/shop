@@ -26,5 +26,8 @@
 	// $back = $_SERVER['HTTP_REFERER'];
 	// header("Location: login.php?back={$back}");
 	// 
-	echo '<a href="2.php">ffff<a/>';
+	/*echo '<a href="2.php">ffff<a/>';*/
+
+	var_dump($_POST['id']);
+
  ?>
