@@ -1,0 +1,73 @@
+.wx_nav a:before{
+     background-image:url("../img/opcity.png");
+     background-repeat:no-repeat;
+     background-size:340px 20px;
+     -webkit-background-size:340px 20px;
+ }
+.wx_nav{
+    overflow:hidden;
+    height:48px;
+    border-top:1px solid #ddd;
+    position:fixed;
+    z-index:1;
+    width:100%;
+    bottom:0;
+    left:0;
+}
+.wx_nav a{
+    width:200px;
+    height:49px;
+    color:#999;
+    font-size:12px;
+    background-color:white;
+    text-align:center;
+}
+.wx_nav a:before{
+    width:30px;
+    height:20px;
+    content:'\20';
+    display:block;
+    margin:5px auto 2px auto;
+}
+.wx_nav a:active{
+    background-color:whitesmoke;
+    color:lightseagreen;
+}
+.wx_nav a:active,.wx_nav a.nav_me {
+    color:lightseagreen;
+}
+.wx_nav a:active:before,.wx_nav a.nav_me:before{
+    background-image:url("../img/greenicon.png");
+    background-repeat:no-repeat;
+    background-size:340px 20px;
+    -webkit-background-size:340px 20px;
+}
+.wx_nav .nav_index:before{
+    background-position: 5px 0;
+}
+.wx_nav .nav_fav:before{
+    background-position: -103px 0;
+}
+.wx_nav .nav_shopcart:before{
+    background-position: -212px 0;
+}
+.wx_nav .nav_me:before{
+    background-position: -315px 0;
+}
+.wx_nav{
+    display:box;
+    display:-ms-box;
+    display:-webkit-box;
+    display:flex;
+    display:-ms-flexbox;
+    display:-webkit-flex;
+}
+.wx_nav a{
+    display:block;
+    flex:1;
+    -ms-flex:1;
+    -webkit-flex:1;
+    box-flex:1;
+    -ms-box-flex:1;
+    -webkit-box-flex:1;
+}

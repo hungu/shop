@@ -38,7 +38,7 @@
 	//购物车所有商品
 	$cart_list = $cart->get_all();
 	
-	include('../view/wap/cart.html')
+	include('../view/wap/cart.html');
 
  ?> 
 

@@ -22,6 +22,19 @@
 			checkboxs[i].checked=true;
 			}
             }};
+		$(function(){
+			$("#checkbox").click(function(){
+				if(this.checked){
+					$("[name=box]:checkbox").attr("checked",true);
+				}else{
+					$("[name=box]:checkbox").attr("checked",false);
+				}
+			})
+			/*$("[name=box]:checkbox").click(function(){
+				var $tmp=$("[name=box]:checkbox");
+				$('#checkbox').attr('checked',$tmp.length==$tmp.filter(":checked").length);
+			})*/
+		})
         $(function () {
             var t = $(".num");
             var one = $(".one").val();
@@ -74,6 +87,7 @@
 <?php while(list($goods_id) = each($cart_list)) { ?>
 <div class="spxz">
     <ul>
+        <!--checkbox 一定要是数组,否则提交表单的时候只会提交一个-->
         <li class="li1"><input type="checkbox" value="<?php echo $goods_id ?>" name="box[]"/></li>
         <li class="li2">
             <a href="good_info.php?goods_id=<?php echo $goods_id ?>">

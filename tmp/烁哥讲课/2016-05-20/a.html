@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+	function getDate(){
+		$user = $("#user").val();
+		$pass = $("#pass").val();
+		$.ajax({
+		   type: "POST",
+		   url: "a.php",
+		   dataType: "json",
+		   data: $("#form1").serialize(),
+		   success: function(data){
+		   		if(data.code == 1){
+					//alert(msg.msg);
+		   		}else{
+
+		   		}
+
+		   		$("#msg").text(data.msg);
+		   },
+		   error:function(a,b,c){
+		   },
+		   beforeSend :function(){
+		   		$("#btn1").val("loading...").attr("disabled","true");
+		   },
+		   complete:function(){
+				$("#btn1").val("click me").removeAttr("disabled");
+		   }
+		});
+	}
+
+</script>
+<title>无标题文档</title>
+</head>
+
+<body>
+<input type="button" value="click me" onclick="getDate()" id="btn1">
+<div id="msg">123</div>
+<form id="form1">
+	<p>姓名<input type="text" name="user" id="user"></p>
+	<p>密码<input type="text" name="pass" id="pass"></p>
+	<p>爱好：<input type="checkbox" name="aihao[]" value="1">aaaa  <input type="checkbox" name="aihao[]"  value="2">bbbb <input type="checkbox" name="aihao[]"  value="3">cccc</p>
+</form>
+</body>
+</html>
