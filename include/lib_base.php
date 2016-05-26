@@ -83,5 +83,31 @@
 	        }  
 	    }  
 	    return $str;  
-	}  
+	} 
+
+	//验证键值在数组中是否存在,且对应的数值不为空
+	function array_yz($key, $arr) {
+
+		if(!is_array($arr) || empty($arr)) {
+			return false;
+		}
+		if(is_array($key)) {
+			foreach ($key as $v) {
+				if(!in_array($v, $arr)) {
+					return false;
+				}
+				if(empty($arr[$v])) {
+					return false;
+				}
+			}
+		} else {
+			if(!in_array($key, $arr)) {
+				return false;
+			}
+			if(empty($arr[$key])) {
+				return false;
+			}
+		}
+		return true;
+	}
  ?>

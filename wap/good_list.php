@@ -25,13 +25,13 @@
 	$cate_list = $cate->select('*', 'parent_id = 0');
 
 	$goods = new Goods_model();
-	$goods_list = $goods->select('*', 'is_delete = 0');
+	$goods_list = $goods->get_goods();
 
 	$good_list = array();
 	foreach ($tree as $cate) {
 		foreach ($goods_list as $good) {
 			if($cate['cate_id'] == $good['cate_id']) {
-				$good_list[$good['add_time']] = $good;
+				$good_list[] = $good;
 			}
 		}
 	}

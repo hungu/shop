@@ -51,11 +51,7 @@
 	$cart = new Cart_model();
 	$cart_list = $cart_list = $cart->get_all();
 
-	//检查库存
-	/*foreach ($_SESSION['order'] as $goods_id) {
-		$cart_num = $cart_list['goods_id']['num'];
-		$goods_num = $cart->
-	}*/
+
 
 	if(!$cart->num_check($_SESSION['order'])) {
 		$_SESSION['msg'] = '库存不足.';

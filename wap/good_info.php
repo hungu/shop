@@ -14,9 +14,5 @@
 		header("Location: index.php");
 	}
 
-	/*var_dump($good_info);
-	exit;*/
-
-
 	include('../view/wap/good_info.html')
  ?>

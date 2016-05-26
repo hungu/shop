@@ -7,34 +7,58 @@
     <link rel="stylesheet" href="../view/wap/css/style_cart.css"/>
     <link rel="stylesheet" href="../view/wap/css/shopping.css"/>
     <script type="text/javascript" src="../view/wap/js/jquery-1.12.1.min.js"></script>
+    <script type="text/javascript" src="../view/wap/js/jquery-select.js"></script>
     <script type="text/javascript" src="../view/wap/js/qxsp.js"></script>
     <!-- 复选框 -->
     <script type="text/javascript">
+	/*	
 		function check(){
+			//全选 方法一(参考)
 			var checkbox = document.getElementById('checkbox');
-			checkbox.value==1?checkbox.value=2 : checkbox.value=1;
-			var checkboxs = document.getElementsByName('box');
+			var checkboxs = document.getElementsByName('box[]');
 			for(var i=0; i<checkboxs.length;i++){
-
-			if(checkbox.value==1){
+			if(checkbox.checked==false){
 				checkboxs[i].checked=false;
 			}else{
 			checkboxs[i].checked=true;
-			}
-            }};
+			}}
+			};
+		function uncheck(){
+			//反选
+			var $tmp=$(".sub_box:checkbox");
+			$('#checkbox').attr('checked',$tmp.length==$tmp.filter(":checked").length);
+			};
+	*/
+		//全选 全不选 方法二
 		$(function(){
 			$("#checkbox").click(function(){
 				if(this.checked){
-					$("[name=box]:checkbox").attr("checked",true);
+					$(".sub_box:checkbox").attr("checked",true);
 				}else{
-					$("[name=box]:checkbox").attr("checked",false);
+					$(".sub_box:checkbox").attr("checked",false);
 				}
 			})
-			/*$("[name=box]:checkbox").click(function(){
-				var $tmp=$("[name=box]:checkbox");
+			$(".sub_box:checkbox").click(function(){
+				var $tmp=$(".sub_box:checkbox");
 				$('#checkbox').attr('checked',$tmp.length==$tmp.filter(":checked").length);
-			})*/
+			})
 		})
+		//----------------------------------------------
+		//商品累加
+		/*$(function () {
+			var t = $(".num");
+			$(".plus").click(function () {
+				t.val(parseInt(t.val()) + 1)
+				setTotal(); //GetCount();
+			})
+			$(".reduce").click(function () {
+				if(t.val()>0){
+					t.val(parseInt(t.val()) - 1)
+					setTotal(); //GetCount();
+				}
+			})
+		})
+		
         $(function () {
             var t = $(".num");
             var one = $(".one").val();
@@ -66,12 +90,36 @@
 
                 setTotal();
             })
-        })
+        })*/
 
         //提交到订单
         function sub() {
             $('form').submit();
         }
+		//商品数量加减
+		$(function () {
+			$(".plus").click(function(){
+				var t=$(this).parent().find('input[class*=num]'); 
+				t.val(parseInt(t.val())+1)
+				setTotal();
+			})
+			$(".reduce").click(function(){ 
+				var t=$(this).parent().find('input[class*=num]'); 
+				t.val(parseInt(t.val())-1) 
+				if(parseInt(t.val())<0){ 
+					t.val(0); 
+				}						
+				setTotal(); 
+			})
+			function setTotal(){ 
+				var s=0; 
+				$(".spxz ul").each(function(){ 
+					s+=parseInt($(this).find('input[class*=num]').val())*parseFloat($(this).find('input[class*=one]').val()); 
+				}); 
+				$(".red").html(s.toFixed(2)); 
+				} 
+				setTotal(); 
+		})		
         </script>
 </head>
 
@@ -88,7 +136,7 @@
 <div class="spxz">
     <ul>
         <!--checkbox 一定要是数组,否则提交表单的时候只会提交一个-->
-        <li class="li1"><input type="checkbox" value="<?php echo $goods_id ?>" name="box[]"/></li>
+        <li class="li1"><input type="checkbox" value="<?php echo $goods_id ?>" class="sub_box" name="box[]"/></li>
         <li class="li2">
             <a href="good_info.php?goods_id=<?php echo $goods_id ?>">
                 <img src="<?php echo str_replace(ROOT, '../' , $conf->file_path . $cart_list[$goods_id]['img']); ?>" alt="<?php echo $cart_list[$goods_id]['name'] ?>" style="width: 60px;height: 60px" />
@@ -97,7 +145,7 @@
         <li class="li3"><span><?php echo $cart_list[$goods_id]['name'] ?></span><br><span style="color: red" >￥</span>
             <input type="text" value="<?php echo $cart_list[$goods_id]['price'] ?>" class="one" disabled="disabled">
         </li>
-        <li class="li4"><div><a class="reduce" >-</a><input type="text" value="<?php echo $cart_list[$goods_id]['num'] ?>" class="num"/><a class="plus">+</a></div></li>
+        <li class="li4"><div class="blank"><a class="reduce" >-</a><input type="text" value="<?php echo $cart_list[$goods_id]['num'] ?>" class="num"/><a class="plus">+</a></div></li>
     </ul>
 </div>
 <?php } ?>
