@@ -4,10 +4,7 @@
 	require_once('../include/init.php');
 
 	function register_deal($openid) {
-		/*//判断用户是否在黑名单中
-		$black = new Black_list_model();
-		if($black->check($openid)) return false;*/
-
+		
 		$user = new User_model();
 		$passwd = rand(100000, 999999);
 		if($user_id = $user->get_id('openid', $openid)) {

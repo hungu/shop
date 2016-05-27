@@ -106,20 +106,30 @@
 			$(".reduce").click(function(){ 
 				var t=$(this).parent().find('input[class*=num]'); 
 				t.val(parseInt(t.val())-1) 
-				if(parseInt(t.val())<0){ 
-					t.val(0); 
+				if(parseInt(t.val())<2){ 
+					t.val(1); 
 				}						
 				setTotal(); 
 			})
-			function setTotal(){ 
+			$(".sub_box:checkbox").click(function(){
+				setTotal();
+			})
+			$("#checkbox").click(function(){
+				setTotal();
+			})
+			setTotal(); 
+		})
+		//合计
+		function setTotal(){ 
 				var s=0; 
 				$(".spxz ul").each(function(){ 
+				    //alert ($(this).checkbox)
+					if ($(this).find('input[class*=sub_box]').attr('checked')==true){
 					s+=parseInt($(this).find('input[class*=num]').val())*parseFloat($(this).find('input[class*=one]').val()); 
+					}
 				}); 
 				$(".red").html(s.toFixed(2)); 
 				} 
-				setTotal(); 
-		})		
         </script>
 </head>
 
@@ -145,7 +155,7 @@
         <li class="li3"><span><?php echo $cart_list[$goods_id]['name'] ?></span><br><span style="color: red" >￥</span>
             <input type="text" value="<?php echo $cart_list[$goods_id]['price'] ?>" class="one" disabled="disabled">
         </li>
-        <li class="li4"><div class="blank"><a class="reduce" >-</a><input type="text" value="<?php echo $cart_list[$goods_id]['num'] ?>" class="num"/><a class="plus">+</a></div></li>
+        <li class="li4"><div><a class="reduce" >-</a><input type="text" value="<?php echo $cart_list[$goods_id]['num'] ?>" class="num"/><a class="plus">+</a></div></li>
     </ul>
 </div>
 <?php } ?>
@@ -154,7 +164,7 @@
 <div style="clear: both"></div>
 <div class="footing">
     <ul>
-        <li class="li5"><input type="checkbox" id="checkbox" value="1" onclick="check()" />全选</li>
+        <li class="li5"><input type="checkbox" id="checkbox" />全选</li>
         <li class="li6">合计：<span class="red">￥100</span></li>
         <li class="li7"><button type="button" onclick=sub()>结算</button></li>
     </ul>

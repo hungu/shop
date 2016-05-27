@@ -3,9 +3,9 @@
  */
     //删除弹窗
 $(function() {
-    $(".btn").click(function () {
-        $(".alert").slideDown();
-        $(".theme-popover-mask").show();
+    $(".btn").click(function () {		
+		$(".alert").slideDown();
+		$(".theme-popover-mask").show();
     });
     $(".theme-popover-mask").click(function () {
         $(".alert").slideUp();
@@ -14,11 +14,22 @@ $(function() {
 });
 $(function(){
 	$(".delete").click(function(){
-		$(".spxz").hide();
-		 $(".alert").slideUp();
-	        $(".theme-popover-mask").hide();
-	        $(".li5").hide();
-	        $(".li6").hide();
+		if($(".footing ul").find('input[id*=checkbox]').attr('checked')==true){
+				$(".spxz").remove();
+				$(".li5").hide();
+				$(".li6").hide();
+				$(".alert").slideUp();
+				$(".theme-popover-mask").hide();
+		}else{
+			$(".spxz ul").each(function(){
+				if($(this).find('input[class*=sub_box]').attr('checked')==true){
+					$(this).remove();
+					$(".alert").slideUp();
+					$(".theme-popover-mask").hide();
+				}
+			})
+		}
+		setTotal(); 
 	})
 });
 $(function(){

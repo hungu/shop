@@ -63,11 +63,12 @@ a,img,button,input,textarea {
 }
 .spxz{
 	
-	border:1px solid #dcdcdc;
+	border:0px solid #dcdcdc;
 }
 .spxz ul{
     width: 100%;
     height: 70px;
+	border:1px solid #dcdcdc;
 }
 .spxz ul li {
     display: block;
