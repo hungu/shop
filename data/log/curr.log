@@ -6286,3 +6286,5 @@
 16-05-27 19:53:12  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
 16-05-27 19:55:00  SET names utf8
 16-05-27 19:55:00  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
+16-05-28 07:33:41  SET names utf8
+16-05-28 07:33:41  SELECT * FROM goods WHERE is_new = 1 AND is_delete = 0 ORDER BY add_time DESC LIMIT 0, 5
